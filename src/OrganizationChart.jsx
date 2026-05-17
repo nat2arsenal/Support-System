@@ -7,7 +7,7 @@ const organizationData = {
     name: 'John Smith',
     position: 'Director',
     company: 'Tech Corp',
-    image: '../public/placeholder-image-person.webp',
+    image: '/placeholder-image-person.webp',
   },
   managers: [
     {
@@ -15,7 +15,7 @@ const organizationData = {
       name: 'Sarah Johnson',
       position: 'Manager',
       company: 'Tech Corp',
-      image: '../public/placeholder-image-person.webp',
+      image: '/placeholder-image-person.webp',
       employees: [
         { id: 4, name: 'Alice Brown', position: 'Senior Developer' },
         { id: 5, name: 'Bob Wilson', position: 'QA Engineer' },
@@ -43,7 +43,7 @@ const organizationData = {
       name: 'Michael Chen',
       position: 'Manager',
       company: 'Tech Corp',
-      image: '../public/placeholder-image-person.webp',
+      image: '/placeholder-image-person.webp',
       employees: [
         { id: 7, name: 'David Miller', position: 'Backend Developer' },
         { id: 8, name: 'Emma Taylor', position: 'DevOps Engineer' },
@@ -77,7 +77,7 @@ const organizationData = {
       name: 'Lisa Martinez',
       position: 'Manager',
       company: 'Tech Corp',
-      image: '../public/placeholder-image-person.webp',
+      image: '/placeholder-image-person.webp',
       employees: [
         { id: 9, name: 'Frank Anderson', position: 'Project Manager' },
         { id: 10, name: 'Grace Lee', position: 'Business Analyst' },
