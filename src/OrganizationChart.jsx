@@ -79,10 +79,10 @@ const organizationData = {
       company: 'Tech Corp',
       image: '/placeholder-image-person.webp',
       employees: [
-        { id: 9, name: 'Frank Anderson', position: 'Project Manager' },
+        { id: 9, name: 'Frank Smith', position: 'Project Manager' },
         { id: 10, name: 'Grace Lee', position: 'Business Analyst' },
         { id: 11, name: 'Henry White', position: 'Scrum Master' },
-        { id: 12, name: 'Iris Black', position: 'Documentation Specialist' },
+        { id: 12, name: 'Iris Black', position: 'Documentation' },
       ],
       clients: [
         {
@@ -90,14 +90,14 @@ const organizationData = {
           name: 'Client F International',
           invoiceText: 'Delivery coordination, requirements management, and documentation.',
           coreServices: ['Project Management', 'Business Analysis', 'Documentation'],
-          engineeringTeam: ['Frank Anderson', 'Grace Lee', 'Iris Black'],
+          engineeringTeam: ['Frank Smith', 'Grace Lee', 'Iris Black'],
         },
         {
           id: 107,
           name: 'Client G Networks',
           invoiceText: 'Agile delivery management and cross-team support services.',
           coreServices: ['Scrum Facilitation', 'Delivery Reporting', 'Stakeholder Support'],
-          engineeringTeam: ['Frank Anderson', 'Henry White'],
+          engineeringTeam: ['Frank Smith', 'Henry White'],
         },
       ],
     },
@@ -183,7 +183,7 @@ export default function OrganizationChart() {
                       aria-expanded={Boolean(employeesExpanded)}
                       aria-controls={`employees-${manager.id}`}
                     >
-                      <span>Employees</span>
+                      <span>Engineers</span>
                       <span className="toggle-icon">v</span>
                     </button>
                     <button
@@ -204,7 +204,7 @@ export default function OrganizationChart() {
                   {employeesExpanded && (
                     <div className="dropdown-content" id={`employees-${manager.id}`}>
                       <div className="dropdown-section">
-                        <h4 className="section-title">Employees / Engineers</h4>
+                        <h4 className="section-title">Engineers</h4>
                         <input
                           className="dropdown-search"
                           type="search"
@@ -216,7 +216,7 @@ export default function OrganizationChart() {
                         />
                         <ul className="items-list">
                           {filteredEmployees.map((employee) => (
-                            <li key={employee.id} className="list-item">
+                            <li key={employee.id} className="list-item employee-item">
                               <span className="item-name">{employee.name}</span>
                               <span className="item-position">{employee.position}</span>
                             </li>
@@ -232,7 +232,7 @@ export default function OrganizationChart() {
                   {clientsExpanded && (
                     <div className="dropdown-content" id={`clients-${manager.id}`}>
                       <div className="dropdown-section">
-                        <h4 className="section-title">Clients</h4>
+                        <h4 className="section-title clients-title">Clients</h4>
                         <input
                           className="dropdown-search"
                           type="search"

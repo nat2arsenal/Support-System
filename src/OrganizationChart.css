@@ -157,6 +157,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
+  position: relative;
 }
 
 .clients-toggle {
@@ -176,6 +177,8 @@
   display: inline-block;
   transition: transform 0.3s ease;
   font-size: 0.8em;
+  position: absolute;
+  right: 20px;
 }
 
 .dropdown-toggle.expanded .toggle-icon {
@@ -226,8 +229,12 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  border-bottom: 2px solid #f5576c;
+  border-bottom: 2px solid #050791cc;
   padding-bottom: 8px;
+}
+
+.section-title.clients-title {
+  border-color: #f5576c;
 }
 
 .dropdown-search {
@@ -265,6 +272,10 @@
   align-items: center;
   transition: all 0.2s ease;
   font-size: 0.95em;
+}
+
+.list-item.employee-item {
+  border-left-color: #050791cc;
 }
 
 .list-item:hover {
@@ -375,6 +386,9 @@
   font-size: 0.85em;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  background-color: #F0F2F5;
+  padding-block: 6px;
+  border-radius: 6px;
 }
 
 .client-detail-section p {
@@ -384,7 +398,7 @@
 
 .client-detail-section ul {
   margin: 0;
-  padding-left: 20px;
+  list-style: none;
 }
 
 .client-detail-section li {
