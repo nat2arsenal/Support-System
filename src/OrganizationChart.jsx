@@ -1,7 +1,52 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './OrganizationChart.css';
 
 const personImage = '/placeholder-image-person.webp';
+const managerCardGap = 36;
+const managerCardMaxWidth = 300;
+
+const getManagerColumnCount = () => {
+  if (typeof window === 'undefined') {
+    return 4;
+  }
+
+  if (window.innerWidth <= 767) {
+    return 1;
+  }
+
+  if (window.innerWidth <= 900) {
+    return 2;
+  }
+
+  if (window.innerWidth <= 1200) {
+    return 3;
+  }
+
+  return 4;
+};
+
+const chunkItems = (items, size) =>
+  items.reduce((rows, item, index) => {
+    if (index % size === 0) {
+      rows.push([]);
+    }
+
+    rows[rows.length - 1].push(item);
+    return rows;
+  }, []);
+
+function useManagerColumnCount() {
+  const [columnCount, setColumnCount] = useState(getManagerColumnCount);
+
+  useEffect(() => {
+    const updateColumnCount = () => setColumnCount(getManagerColumnCount());
+
+    window.addEventListener('resize', updateColumnCount);
+    return () => window.removeEventListener('resize', updateColumnCount);
+  }, []);
+
+  return columnCount;
+}
 
 const organizationData = {
   director: {
@@ -19,9 +64,9 @@ const organizationData = {
       company: 'Tech Corp',
       image: personImage,
       employees: [
-        { id: 4, name: 'Alice Brown', position: 'Senior Developer' },
-        { id: 5, name: 'Bob Wilson', position: 'QA Engineer' },
-        { id: 6, name: 'Carol Davis', position: 'UI Designer' },
+        { id: 4, name: 'Alice Brown', position: 'Senior Developer', image: personImage },
+        { id: 5, name: 'Bob Wilson', position: 'QA Engineer', image: personImage },
+        { id: 6, name: 'Carol Davis', position: 'UI Designer', image: personImage },
       ],
       clients: [
         {
@@ -49,9 +94,9 @@ const organizationData = {
       company: 'Tech Corp',
       image: personImage,
       employees: [
-        { id: 7, name: 'David Miller', position: 'Backend Developer' },
-        { id: 8, name: 'Emma Taylor', position: 'DevOps Engineer' },
-        { id: 9, name: 'Noah Garcia', position: 'Cloud Engineer' },
+        { id: 7, name: 'David Miller', position: 'Backend Developer', image: personImage },
+        { id: 8, name: 'Emma Taylor', position: 'DevOps Engineer', image: personImage },
+        { id: 9, name: 'Noah Garcia', position: 'Cloud Engineer', image: personImage },
       ],
       clients: [
         {
@@ -87,10 +132,10 @@ const organizationData = {
       company: 'Tech Corp',
       image: personImage,
       employees: [
-        { id: 10, name: 'Frank Smith', position: 'Project Manager' },
-        { id: 11, name: 'Grace Lee', position: 'Business Analyst' },
-        { id: 12, name: 'Henry White', position: 'Scrum Master' },
-        { id: 13, name: 'Iris Black', position: 'Documentation' },
+        { id: 10, name: 'Frank Smith', position: 'Project Manager', image: personImage },
+        { id: 11, name: 'Grace Lee', position: 'Business Analyst', image: personImage },
+        { id: 12, name: 'Henry White', position: 'Scrum Master', image: personImage },
+        { id: 13, name: 'Iris Black', position: 'Documentation', image: personImage },
       ],
       clients: [
         {
@@ -118,9 +163,9 @@ const organizationData = {
       company: 'Tech Corp',
       image: personImage,
       employees: [
-        { id: 15, name: 'Liam Turner', position: 'Full Stack Engineer' },
-        { id: 16, name: 'Mia Santos', position: 'QA Automation Engineer' },
-        { id: 17, name: 'Owen Brooks', position: 'Support Engineer' },
+        { id: 15, name: 'Liam Turner', position: 'Full Stack Engineer', image: personImage },
+        { id: 16, name: 'Mia Santos', position: 'QA Automation Engineer', image: personImage },
+        { id: 17, name: 'Owen Brooks', position: 'Support Engineer', image: personImage },
       ],
       clients: [
         {
@@ -148,9 +193,9 @@ const organizationData = {
       company: 'Tech Corp',
       image: personImage,
       employees: [
-        { id: 19, name: 'Nina Clarke', position: 'Data Engineer' },
-        { id: 20, name: 'Ethan Wright', position: 'Backend Engineer' },
-        { id: 21, name: 'Sofia Reyes', position: 'Analytics Engineer' },
+        { id: 19, name: 'Nina Clarke', position: 'Data Engineer', image: personImage },
+        { id: 20, name: 'Ethan Wright', position: 'Backend Engineer', image: personImage },
+        { id: 21, name: 'Sofia Reyes', position: 'Analytics Engineer', image: personImage },
       ],
       clients: [
         {
@@ -178,9 +223,9 @@ const organizationData = {
       company: 'Tech Corp',
       image: personImage,
       employees: [
-        { id: 23, name: 'Jack Evans', position: 'Mobile Engineer' },
-        { id: 24, name: 'Ava Flores', position: 'Frontend Engineer' },
-        { id: 25, name: 'Leo Morris', position: 'UX Engineer' },
+        { id: 23, name: 'Jack Evans', position: 'Mobile Engineer', image: personImage },
+        { id: 24, name: 'Ava Flores', position: 'Frontend Engineer', image: personImage },
+        { id: 25, name: 'Leo Morris', position: 'UX Engineer', image: personImage },
       ],
       clients: [
         {
@@ -208,9 +253,9 @@ const organizationData = {
       company: 'Tech Corp',
       image: personImage,
       employees: [
-        { id: 27, name: 'Maya Nelson', position: 'Security Engineer' },
-        { id: 28, name: 'Caleb Young', position: 'Systems Engineer' },
-        { id: 29, name: 'Zoe Morgan', position: 'DevSecOps Engineer' },
+        { id: 27, name: 'Maya Nelson', position: 'Security Engineer', image: personImage },
+        { id: 28, name: 'Caleb Young', position: 'Systems Engineer', image: personImage },
+        { id: 29, name: 'Zoe Morgan', position: 'DevSecOps Engineer', image: personImage },
       ],
       clients: [
         {
@@ -238,9 +283,9 @@ const organizationData = {
       company: 'Tech Corp',
       image: personImage,
       employees: [
-        { id: 31, name: 'Ryan Hughes', position: 'Platform Engineer' },
-        { id: 32, name: 'Ella Ward', position: 'SRE' },
-        { id: 33, name: 'Mateo Cruz', position: 'Release Engineer' },
+        { id: 31, name: 'Ryan Hughes', position: 'Platform Engineer', image: personImage },
+        { id: 32, name: 'Ella Ward', position: 'SRE', image: personImage },
+        { id: 33, name: 'Mateo Cruz', position: 'Release Engineer', image: personImage },
       ],
       clients: [
         {
@@ -261,36 +306,6 @@ const organizationData = {
         },
       ],
     },
-    {
-      id: 34,
-      name: 'Marcus Lee',
-      position: 'Manager',
-      company: 'Tech Corp',
-      image: personImage,
-      employees: [
-        { id: 35, name: 'Chloe Adams', position: 'Customer Engineer' },
-        { id: 36, name: 'Isaac Bell', position: 'Integration Engineer' },
-        { id: 37, name: 'Ruby Price', position: 'Technical Analyst' },
-      ],
-      clients: [
-        {
-          id: 118,
-          name: 'Client R Connect',
-          type: 'Recurring',
-          invoiceText: 'Recurring customer engineering and integration support.',
-          coreServices: ['Customer Engineering', 'Integrations', 'Technical Analysis'],
-          engineeringTeam: ['Chloe Adams', 'Isaac Bell'],
-        },
-        {
-          id: 119,
-          name: 'Client S Advisory',
-          type: 'Prepaid',
-          invoiceText: 'Prepaid advisory package for technical analysis and integration planning.',
-          coreServices: ['Technical Advisory', 'Integration Planning', 'Support Triage'],
-          engineeringTeam: ['Ruby Price', 'Isaac Bell'],
-        },
-      ],
-    },
   ],
 };
 
@@ -299,6 +314,8 @@ export default function OrganizationChart() {
   const [searchQueries, setSearchQueries] = useState({});
   const [clientTypeFilters, setClientTypeFilters] = useState({});
   const [selectedClient, setSelectedClient] = useState(null);
+  const managerColumnCount = useManagerColumnCount();
+  const managerRows = chunkItems(organizationData.managers, managerColumnCount);
 
   const toggleSection = (managerId, section) => {
     setActiveDropdowns((prev) => ({
@@ -342,7 +359,17 @@ export default function OrganizationChart() {
         <div className="director-branch"></div>
 
         <div className="managers-container">
-          {organizationData.managers.map((manager) => {
+          {managerRows.map((managerRow) => (
+            <div
+              key={managerRow.map((manager) => manager.id).join('-')}
+              className="manager-row"
+              style={{
+                '--manager-row-count': managerRow.length,
+                '--manager-row-width': `${managerRow.length * managerCardMaxWidth + (managerRow.length - 1) * managerCardGap}px`,
+              }}
+            >
+              {managerRow.length > 1 && <div className="row-connector"></div>}
+              {managerRow.map((manager) => {
             const employeesExpanded = activeDropdowns[manager.id] === 'employees';
             const clientsExpanded = activeDropdowns[manager.id] === 'clients';
             const employeeSearch = searchQueries[`${manager.id}-employees`] ?? '';
@@ -416,9 +443,16 @@ export default function OrganizationChart() {
                         />
                         <ul className="items-list">
                           {filteredEmployees.map((employee) => (
-                            <li key={employee.id} className="list-item employee-item">
-                              <span className="item-name">{employee.name}</span>
-                              <span className="item-position">{employee.position}</span>
+                            <li key={employee.id} className="employee-item">
+                              <img
+                                src={employee.image}
+                                alt={employee.name}
+                                className="employee-avatar"
+                              />
+                              <span className="employee-summary">
+                                <span className="item-name">{employee.name}</span>
+                                <span className="item-position">{employee.position}</span>
+                              </span>
                             </li>
                           ))}
                           {filteredEmployees.length === 0 && (
@@ -477,6 +511,8 @@ export default function OrganizationChart() {
               </div>
             );
           })}
+            </div>
+          ))}
         </div>
       </div>
 
