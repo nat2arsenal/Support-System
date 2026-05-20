@@ -7,7 +7,7 @@ const managerCardMaxWidth = 300;
 
 const getManagerColumnCount = () => {
   if (typeof window === 'undefined') {
-    return 4;
+    return 8;
   }
 
   if (window.innerWidth <= 767) {
@@ -22,7 +22,7 @@ const getManagerColumnCount = () => {
     return 3;
   }
 
-  return 4;
+  return 8;
 };
 
 const chunkItems = (items, size) =>
