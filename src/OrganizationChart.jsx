@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import './OrganizationChart.css';
 
+const personImage = '/placeholder-image-person.webp';
+
 const organizationData = {
   director: {
     id: 1,
     name: 'John Smith',
     position: 'Director',
     company: 'Tech Corp',
-    image: '/placeholder-image-person.webp',
+    image: personImage,
   },
   managers: [
     {
@@ -15,7 +17,7 @@ const organizationData = {
       name: 'Sarah Johnson',
       position: 'Manager',
       company: 'Tech Corp',
-      image: '/placeholder-image-person.webp',
+      image: personImage,
       employees: [
         { id: 4, name: 'Alice Brown', position: 'Senior Developer' },
         { id: 5, name: 'Bob Wilson', position: 'QA Engineer' },
@@ -25,6 +27,7 @@ const organizationData = {
         {
           id: 101,
           name: 'Client A Inc.',
+          type: 'Recurring',
           invoiceText: 'Monthly managed support and platform maintenance retainer.',
           coreServices: ['Application Support', 'Cloud Monitoring', 'QA Regression'],
           engineeringTeam: ['Alice Brown', 'Bob Wilson'],
@@ -32,6 +35,7 @@ const organizationData = {
         {
           id: 102,
           name: 'Client B Solutions',
+          type: 'Prepaid',
           invoiceText: 'Sprint-based product engineering and UI enhancement services.',
           coreServices: ['Frontend Development', 'UI Design', 'Release Support'],
           engineeringTeam: ['Alice Brown', 'Carol Davis'],
@@ -43,15 +47,17 @@ const organizationData = {
       name: 'Michael Chen',
       position: 'Manager',
       company: 'Tech Corp',
-      image: '/placeholder-image-person.webp',
+      image: personImage,
       employees: [
         { id: 7, name: 'David Miller', position: 'Backend Developer' },
         { id: 8, name: 'Emma Taylor', position: 'DevOps Engineer' },
+        { id: 9, name: 'Noah Garcia', position: 'Cloud Engineer' },
       ],
       clients: [
         {
           id: 103,
           name: 'Client C Global',
+          type: 'Recurring',
           invoiceText: 'Backend modernization, API maintenance, and incident response.',
           coreServices: ['API Development', 'Database Optimization', 'Incident Response'],
           engineeringTeam: ['David Miller', 'Emma Taylor'],
@@ -59,13 +65,15 @@ const organizationData = {
         {
           id: 104,
           name: 'Client D Tech',
+          type: 'Prepaid',
           invoiceText: 'Infrastructure automation and deployment pipeline support.',
           coreServices: ['DevOps Automation', 'CI/CD Support', 'Cloud Operations'],
-          engineeringTeam: ['Emma Taylor'],
+          engineeringTeam: ['Emma Taylor', 'Noah Garcia'],
         },
         {
           id: 105,
           name: 'Client E Corp',
+          type: 'Recurring',
           invoiceText: 'Ongoing backend feature delivery and production support.',
           coreServices: ['Backend Development', 'Service Monitoring', 'Technical Support'],
           engineeringTeam: ['David Miller'],
@@ -77,17 +85,18 @@ const organizationData = {
       name: 'Lisa Martinez',
       position: 'Manager',
       company: 'Tech Corp',
-      image: '/placeholder-image-person.webp',
+      image: personImage,
       employees: [
-        { id: 9, name: 'Frank Smith', position: 'Project Manager' },
-        { id: 10, name: 'Grace Lee', position: 'Business Analyst' },
-        { id: 11, name: 'Henry White', position: 'Scrum Master' },
-        { id: 12, name: 'Iris Black', position: 'Documentation' },
+        { id: 10, name: 'Frank Smith', position: 'Project Manager' },
+        { id: 11, name: 'Grace Lee', position: 'Business Analyst' },
+        { id: 12, name: 'Henry White', position: 'Scrum Master' },
+        { id: 13, name: 'Iris Black', position: 'Documentation' },
       ],
       clients: [
         {
           id: 106,
           name: 'Client F International',
+          type: 'Recurring',
           invoiceText: 'Delivery coordination, requirements management, and documentation.',
           coreServices: ['Project Management', 'Business Analysis', 'Documentation'],
           engineeringTeam: ['Frank Smith', 'Grace Lee', 'Iris Black'],
@@ -95,9 +104,190 @@ const organizationData = {
         {
           id: 107,
           name: 'Client G Networks',
+          type: 'Prepaid',
           invoiceText: 'Agile delivery management and cross-team support services.',
           coreServices: ['Scrum Facilitation', 'Delivery Reporting', 'Stakeholder Support'],
           engineeringTeam: ['Frank Smith', 'Henry White'],
+        },
+      ],
+    },
+    {
+      id: 14,
+      name: 'Priya Patel',
+      position: 'Manager',
+      company: 'Tech Corp',
+      image: personImage,
+      employees: [
+        { id: 15, name: 'Liam Turner', position: 'Full Stack Engineer' },
+        { id: 16, name: 'Mia Santos', position: 'QA Automation Engineer' },
+        { id: 17, name: 'Owen Brooks', position: 'Support Engineer' },
+      ],
+      clients: [
+        {
+          id: 108,
+          name: 'Client H Studios',
+          type: 'Recurring',
+          invoiceText: 'Application support, automated testing, and release readiness.',
+          coreServices: ['Full Stack Support', 'QA Automation', 'Release Management'],
+          engineeringTeam: ['Liam Turner', 'Mia Santos'],
+        },
+        {
+          id: 109,
+          name: 'Client I Retail',
+          type: 'Prepaid',
+          invoiceText: 'Prepaid support hours for feature fixes and operational requests.',
+          coreServices: ['Support Engineering', 'Bug Fixes', 'Operational Requests'],
+          engineeringTeam: ['Owen Brooks', 'Liam Turner'],
+        },
+      ],
+    },
+    {
+      id: 18,
+      name: 'Daniel Kim',
+      position: 'Manager',
+      company: 'Tech Corp',
+      image: personImage,
+      employees: [
+        { id: 19, name: 'Nina Clarke', position: 'Data Engineer' },
+        { id: 20, name: 'Ethan Wright', position: 'Backend Engineer' },
+        { id: 21, name: 'Sofia Reyes', position: 'Analytics Engineer' },
+      ],
+      clients: [
+        {
+          id: 110,
+          name: 'Client J Analytics',
+          type: 'Recurring',
+          invoiceText: 'Monthly data pipeline operations and analytics platform support.',
+          coreServices: ['Data Pipelines', 'Analytics Support', 'Reporting'],
+          engineeringTeam: ['Nina Clarke', 'Sofia Reyes'],
+        },
+        {
+          id: 111,
+          name: 'Client K Finance',
+          type: 'Prepaid',
+          invoiceText: 'Prepaid backend engineering block for integrations and reporting.',
+          coreServices: ['Backend Integrations', 'Data Modeling', 'Report Automation'],
+          engineeringTeam: ['Ethan Wright', 'Nina Clarke'],
+        },
+      ],
+    },
+    {
+      id: 22,
+      name: 'Rachel Green',
+      position: 'Manager',
+      company: 'Tech Corp',
+      image: personImage,
+      employees: [
+        { id: 23, name: 'Jack Evans', position: 'Mobile Engineer' },
+        { id: 24, name: 'Ava Flores', position: 'Frontend Engineer' },
+        { id: 25, name: 'Leo Morris', position: 'UX Engineer' },
+      ],
+      clients: [
+        {
+          id: 112,
+          name: 'Client L Mobile',
+          type: 'Recurring',
+          invoiceText: 'Recurring mobile application maintenance and storefront support.',
+          coreServices: ['Mobile Development', 'Frontend Support', 'UX Improvements'],
+          engineeringTeam: ['Jack Evans', 'Ava Flores'],
+        },
+        {
+          id: 113,
+          name: 'Client M Commerce',
+          type: 'Prepaid',
+          invoiceText: 'Prepaid design implementation and ecommerce enhancement work.',
+          coreServices: ['Frontend Development', 'UX Engineering', 'Commerce Support'],
+          engineeringTeam: ['Ava Flores', 'Leo Morris'],
+        },
+      ],
+    },
+    {
+      id: 26,
+      name: 'Ahmed Hassan',
+      position: 'Manager',
+      company: 'Tech Corp',
+      image: personImage,
+      employees: [
+        { id: 27, name: 'Maya Nelson', position: 'Security Engineer' },
+        { id: 28, name: 'Caleb Young', position: 'Systems Engineer' },
+        { id: 29, name: 'Zoe Morgan', position: 'DevSecOps Engineer' },
+      ],
+      clients: [
+        {
+          id: 114,
+          name: 'Client N Secure',
+          type: 'Recurring',
+          invoiceText: 'Security monitoring, platform hardening, and monthly reviews.',
+          coreServices: ['Security Monitoring', 'Platform Hardening', 'Compliance Support'],
+          engineeringTeam: ['Maya Nelson', 'Zoe Morgan'],
+        },
+        {
+          id: 115,
+          name: 'Client O Systems',
+          type: 'Prepaid',
+          invoiceText: 'Prepaid infrastructure support and systems remediation package.',
+          coreServices: ['Systems Engineering', 'Infrastructure Support', 'Remediation'],
+          engineeringTeam: ['Caleb Young', 'Maya Nelson'],
+        },
+      ],
+    },
+    {
+      id: 30,
+      name: 'Olivia Nguyen',
+      position: 'Manager',
+      company: 'Tech Corp',
+      image: personImage,
+      employees: [
+        { id: 31, name: 'Ryan Hughes', position: 'Platform Engineer' },
+        { id: 32, name: 'Ella Ward', position: 'SRE' },
+        { id: 33, name: 'Mateo Cruz', position: 'Release Engineer' },
+      ],
+      clients: [
+        {
+          id: 116,
+          name: 'Client P Platform',
+          type: 'Recurring',
+          invoiceText: 'Platform reliability retainer with release and observability support.',
+          coreServices: ['Platform Engineering', 'Reliability Support', 'Observability'],
+          engineeringTeam: ['Ryan Hughes', 'Ella Ward'],
+        },
+        {
+          id: 117,
+          name: 'Client Q Launch',
+          type: 'Prepaid',
+          invoiceText: 'Prepaid launch support and deployment readiness engagement.',
+          coreServices: ['Release Engineering', 'Deployment Support', 'Launch Readiness'],
+          engineeringTeam: ['Mateo Cruz', 'Ella Ward'],
+        },
+      ],
+    },
+    {
+      id: 34,
+      name: 'Marcus Lee',
+      position: 'Manager',
+      company: 'Tech Corp',
+      image: personImage,
+      employees: [
+        { id: 35, name: 'Chloe Adams', position: 'Customer Engineer' },
+        { id: 36, name: 'Isaac Bell', position: 'Integration Engineer' },
+        { id: 37, name: 'Ruby Price', position: 'Technical Analyst' },
+      ],
+      clients: [
+        {
+          id: 118,
+          name: 'Client R Connect',
+          type: 'Recurring',
+          invoiceText: 'Recurring customer engineering and integration support.',
+          coreServices: ['Customer Engineering', 'Integrations', 'Technical Analysis'],
+          engineeringTeam: ['Chloe Adams', 'Isaac Bell'],
+        },
+        {
+          id: 119,
+          name: 'Client S Advisory',
+          type: 'Prepaid',
+          invoiceText: 'Prepaid advisory package for technical analysis and integration planning.',
+          coreServices: ['Technical Advisory', 'Integration Planning', 'Support Triage'],
+          engineeringTeam: ['Ruby Price', 'Isaac Bell'],
         },
       ],
     },
@@ -107,6 +297,7 @@ const organizationData = {
 export default function OrganizationChart() {
   const [activeDropdowns, setActiveDropdowns] = useState({});
   const [searchQueries, setSearchQueries] = useState({});
+  const [clientTypeFilters, setClientTypeFilters] = useState({});
   const [selectedClient, setSelectedClient] = useState(null);
 
   const toggleSection = (managerId, section) => {
@@ -123,9 +314,16 @@ export default function OrganizationChart() {
     }));
   };
 
+  const updateClientTypeFilter = (managerId, value) => {
+    setClientTypeFilters((prev) => ({
+      ...prev,
+      [managerId]: value,
+    }));
+  };
+
   return (
     <div className="org-chart-container">
-      <h1 className="chart-title">ORGANIZATIONAL CHART AND CLIENT PORTFOLIO</h1>
+      <h1 className="chart-title">HK Client Portfolio</h1>
 
       <div className="org-section">
         <div className="director-node">
@@ -142,7 +340,6 @@ export default function OrganizationChart() {
         </div>
 
         <div className="director-branch"></div>
-        <div className="managers-connector"></div>
 
         <div className="managers-container">
           {organizationData.managers.map((manager) => {
@@ -150,17 +347,20 @@ export default function OrganizationChart() {
             const clientsExpanded = activeDropdowns[manager.id] === 'clients';
             const employeeSearch = searchQueries[`${manager.id}-employees`] ?? '';
             const clientSearch = searchQueries[`${manager.id}-clients`] ?? '';
-            const filteredEmployees = manager.employees.filter((employee) => {
-              const query = employeeSearch.trim().toLowerCase();
-
-              return (
-                employee.name.toLowerCase().includes(query) ||
-                employee.position.toLowerCase().includes(query)
-              );
-            });
-            const filteredClients = manager.clients.filter((client) =>
-              client.name.toLowerCase().includes(clientSearch.trim().toLowerCase()),
+            const clientTypeFilter = clientTypeFilters[manager.id] ?? 'All';
+            const employeeQuery = employeeSearch.trim().toLowerCase();
+            const clientQuery = clientSearch.trim().toLowerCase();
+            const filteredEmployees = manager.employees.filter(
+              (employee) =>
+                employee.name.toLowerCase().includes(employeeQuery) ||
+                employee.position.toLowerCase().includes(employeeQuery),
             );
+            const filteredClients = manager.clients.filter((client) => {
+              const matchesSearch = client.name.toLowerCase().includes(clientQuery);
+              const matchesType = clientTypeFilter === 'All' || client.type === clientTypeFilter;
+
+              return matchesSearch && matchesType;
+            });
 
             return (
               <div key={manager.id} className="manager-section">
@@ -242,6 +442,16 @@ export default function OrganizationChart() {
                             updateSearchQuery(manager.id, 'clients', event.target.value)
                           }
                         />
+                        <select
+                          className="dropdown-filter"
+                          value={clientTypeFilter}
+                          onChange={(event) => updateClientTypeFilter(manager.id, event.target.value)}
+                          aria-label={`Filter clients for ${manager.name} by type`}
+                        >
+                          <option value="All">All client types</option>
+                          <option value="Recurring">Recurring</option>
+                          <option value="Prepaid">Prepaid</option>
+                        </select>
                         <ul className="items-list">
                           {filteredClients.map((client) => (
                             <li key={client.id} className="list-item client-item">
@@ -249,7 +459,10 @@ export default function OrganizationChart() {
                                 className="client-detail-button"
                                 onClick={() => setSelectedClient(client)}
                               >
-                                {client.name}
+                                <span>{client.name}</span>
+                                <span className={`client-type-badge ${client.type.toLowerCase()}`}>
+                                  {client.type}
+                                </span>
                               </button>
                             </li>
                           ))}
@@ -265,8 +478,6 @@ export default function OrganizationChart() {
             );
           })}
         </div>
-
-        <div className="horizontal-connector"></div>
       </div>
 
       {selectedClient && (
@@ -291,6 +502,11 @@ export default function OrganizationChart() {
             </button>
 
             <h2 id="client-modal-title">{selectedClient.name}</h2>
+
+            <div className="client-detail-section">
+              <h3>Client Type</h3>
+              <p>{selectedClient.type}</p>
+            </div>
 
             <div className="client-detail-section">
               <h3>Invoice Text</h3>
