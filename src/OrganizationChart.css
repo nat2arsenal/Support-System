@@ -1,6 +1,6 @@
 .org-chart-container {
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 40px 20px 70px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
 }
@@ -41,8 +41,9 @@
 /* Branch line from director */
 .director-branch {
   width: 4px;
-  height: 40px;
-  background-color: var(--black);
+  height: 60px;
+  /* background-color: var(--black); */
+  background-color: transparent;
   margin: 0 auto;
 }
 
@@ -74,6 +75,7 @@
   right: calc((100% / (var(--manager-row-count) * 2)) - 15px);;
   height: 3px;
   background: #172033;
+  display: none;
 }
 
 .manager-section {
@@ -90,6 +92,7 @@
   background-color: #172033;
   position: relative;
   z-index: 2;
+  display: none;
 }
 
 /* Manager Node Styling */
@@ -97,6 +100,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  justify-content: space-between;
   gap: 12px;
   background: #fff;
   padding: 25px;
@@ -125,7 +129,7 @@
   height: 80px;
   border-radius: 50%;
   object-fit: contain;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   background-color: #f6f6f6;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -147,15 +151,16 @@
 }
 
 .node-position {
-  margin: 5px 0 3px 0;
-  font-size: 0.95em;
+  margin: 0 0 3px;
+  font-size: 0.8em;
   opacity: 0.95;
 }
 
 .node-company {
   margin: 0;
-  font-size: 0.85em;
+  font-size: 0.8em;
   opacity: 0.85;
+  display: none;
 }
 
 .dropdown-actions {
@@ -166,7 +171,7 @@
 
 /* Dropdown Toggle Button */
 .dropdown-toggle {
-  background-color: rgba(5, 7, 145, 0.8);
+  background-color: #1C4E53;
   border: none;
   color: white;
   padding: 9px 12px;
@@ -182,17 +187,9 @@
   position: relative;
 }
 
-.clients-toggle {
-  background-color: #f5576c;
-}
-
 .dropdown-toggle:hover {
-  background-color: rgba(5, 7, 145, 1);
+  background-color: #113134;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-.clients-toggle:hover {
-  background-color: #dd3f55;
 }
 
 .toggle-icon {
@@ -252,7 +249,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  border-bottom: 2px solid #050791cc;
+  border-bottom: 2px solid #1C4E53;
   padding-bottom: 8px;
 }
 
@@ -301,13 +298,14 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  max-height: 300px;
+  overflow: auto;
 }
 
 .list-item {
   padding: 10px 12px;
   margin-bottom: 8px;
   background-color: #f8f9fa;
-  border-left: 4px solid #f5576c;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
@@ -320,7 +318,7 @@
   padding: 10px 12px;
   margin-bottom: 8px;
   background-color: #f8f9fa;
-  border-left: 4px solid #050791cc;
+  border-left: 4px solid #1C4E53;
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -332,7 +330,7 @@
 .employee-item:hover {
   background-color: #f5f7fa;
   border-left-color: var(--black);
-  padding-left: 16px;
+  padding-left: 5px;
 }
 
 .employee-item:last-child {
@@ -355,13 +353,14 @@
   min-width: 0;
   flex-direction: column;
   align-items: flex-start;
-  gap: 3px;
+  gap: 7px;
+  text-align: left;
 }
 
 .list-item:hover {
   background-color: #f5f7fa;
   border-left-color: var(--black);
-  padding-left: 16px;
+  padding-left: 5px;
 }
 
 .list-item:last-child {
@@ -378,11 +377,13 @@
 
 .item-name {
   font-weight: 600;
+  line-height: 1;
   color: var(--black);
 }
 
 .item-position {
   font-size: 0.85em;
+  line-height: 1;
   color: #7f8c8d;
   font-style: italic;
 }
@@ -392,6 +393,11 @@
   color: var(--black);
   font-weight: 500;
   padding: 0;
+  border-left: 4px solid #D2C1D2;
+}
+
+.client-item.prepaid {
+  border-color: #F3CCB1;
 }
 
 .client-detail-button {
@@ -417,18 +423,18 @@
 .client-type-badge {
   flex: 0 0 auto;
   border-radius: 999px;
-  color: #fff;
+  color: var(--black);
   font-size: 0.75em;
   font-weight: 700;
   padding: 4px 8px;
 }
 
 .client-type-badge.recurring {
-  background-color: rgba(5, 7, 145, 0.85);
+  background-color: #D2C1D2;
 }
 
 .client-type-badge.prepaid {
-  background-color: #f5576c;
+  background-color: #F3CCB1;
 }
 
 .modal-backdrop {
@@ -522,7 +528,7 @@
 @media (max-width: 767px) {
   .org-chart-container {
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 10px 40px;
   }
 
   .chart-title {
@@ -570,7 +576,7 @@
 
 @media (max-width: 480px) {
   .org-chart-container {
-    padding: 15px;
+    padding: 15px 10px 40px;
   }
 
   .chart-title {
