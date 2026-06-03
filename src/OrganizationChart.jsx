@@ -151,7 +151,8 @@ export default function OrganizationChart() {
               const matchesType = clientTypeFilter === 'All' || client.type === clientTypeFilter;
 
               return matchesSearch && matchesType;
-            });
+            })
+            .sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
             return (
               <div key={manager.id} className="manager-section">
@@ -168,26 +169,30 @@ export default function OrganizationChart() {
                   </div>
 
                   <div className="dropdown-actions">
-                    <button
-                      className={`dropdown-toggle ${employeesExpanded ? 'expanded' : ''}`}
-                      onClick={() => toggleSection(manager.id, 'employees')}
-                      aria-expanded={Boolean(employeesExpanded)}
-                      aria-controls={`employees-${manager.id}`}
-                    >
-                      <span>Engineers</span>
-                      <span className="toggle-icon">v</span>
-                    </button>
-                    <button
-                      className={`dropdown-toggle clients-toggle ${
-                        clientsExpanded ? 'expanded' : ''
-                      }`}
-                      onClick={() => toggleSection(manager.id, 'clients')}
-                      aria-expanded={Boolean(clientsExpanded)}
-                      aria-controls={`clients-${manager.id}`}
-                    >
-                      <span>Clients</span>
-                      <span className="toggle-icon">v</span>
-                    </button>
+                    {manager.employees.length > 0 && (
+                      <button
+                        className={`dropdown-toggle ${employeesExpanded ? 'expanded' : ''}`}
+                        onClick={() => toggleSection(manager.id, 'employees')}
+                        aria-expanded={Boolean(employeesExpanded)}
+                        aria-controls={`employees-${manager.id}`}
+                      >
+                        <span>Engineers</span>
+                        <span className="toggle-icon">v</span>
+                      </button>
+                    )}
+                    {manager.clients.length > 0 && (
+                      <button
+                        className={`dropdown-toggle clients-toggle ${
+                          clientsExpanded ? 'expanded' : ''
+                        }`}
+                        onClick={() => toggleSection(manager.id, 'clients')}
+                        aria-expanded={Boolean(clientsExpanded)}
+                        aria-controls={`clients-${manager.id}`}
+                      >
+                        <span>Clients</span>
+                        <span className="toggle-icon">v</span>
+                      </button>
+                    )}
                   </div>
                 </div>
 
@@ -252,7 +257,7 @@ export default function OrganizationChart() {
                         </select>
                         <ul className="items-list">
                           {filteredClients.map((client) => (
-                            <li key={client.id} className={`list-item client-item ${client.type.toLowerCase()}`}>
+                            <li key={client.id} className={`list-item client-item ${client.type.toLowerCase()} ${client.tier.toLowerCase()}`}>
                               <button
                                 className="client-detail-button"
                                 onClick={() => setSelectedClient(client)}

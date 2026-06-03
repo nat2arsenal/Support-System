@@ -264,6 +264,7 @@
   border: 1px solid #d7dce2;
   border-radius: 6px;
   color: var(--black);
+  background-color: #fff;
   font: inherit;
   font-size: 0.92em;
   outline: none;
@@ -359,7 +360,6 @@
 
 .list-item:hover {
   background-color: #f5f7fa;
-  border-left-color: var(--black);
   padding-left: 5px;
 }
 
@@ -396,8 +396,20 @@
   border-left: 4px solid #D2C1D2;
 }
 
-.client-item.prepaid {
-  border-color: #F3CCB1;
+.client-item.tier-a {
+  border-color: #93C47D;
+}
+
+.client-item.tier-b {
+  border-color: #FFAD58;
+}
+
+.client-item.tier-c {
+  border-color: #FFD966;
+}
+
+.client-item.tier-d {
+  border-color: #BA6A5A;
 }
 
 .client-detail-button {
