@@ -13,7 +13,9 @@ export default function ClientModal({ client, onClose }) {
         <button className="modal-close" onClick={onClose} aria-label="Close client details">
           x
         </button>
-
+        {client.coreServices?.length && client.coreServices.includes('Service Desk') && (
+        <div className="service-desk-indicator" title="Service Desk"></div>
+        )}
         <h2 id="client-modal-title">{client.name}</h2>
 
         <div className="client-detail-section">
