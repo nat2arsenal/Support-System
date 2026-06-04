@@ -1,3 +1,5 @@
+import { getClientTierLabel } from '../clientTiers';
+
 export default function ClientModal({ client, onClose }) {
   return (
     <div className="modal-backdrop" role="presentation" onClick={onClose}>
@@ -17,6 +19,11 @@ export default function ClientModal({ client, onClose }) {
         <div className="client-detail-section">
           <h3>Client Type</h3>
           <p>{client.type}</p>
+        </div>
+
+        <div className="client-detail-section">
+          <h3>Tier</h3>
+          <p>{getClientTierLabel(client)}</p>
         </div>
 
         <div className="client-detail-section">

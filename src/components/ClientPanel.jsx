@@ -1,12 +1,19 @@
 import ClientItem from './ClientItem';
 import DropdownPanel from './DropdownPanel';
+import { clientTierOptions } from '../clientTiers';
 
-const clientTypeOptions = ['All', 'Recurring', 'Prepaid'];
+const clientTypeOptions = [
+  { value: 'All', label: 'All' },
+  { value: 'Recurring', label: 'Recurring' },
+  { value: 'Prepaid', label: 'Prepaid' },
+];
 
 export default function ClientPanel({
   clients,
+  clientTierFilter,
   clientTypeFilter,
   manager,
+  onClientTierChange,
   onClientTypeChange,
   onSearchChange,
   onSelectClient,
@@ -22,18 +29,43 @@ export default function ClientPanel({
         value={searchQuery}
         onChange={(event) => onSearchChange(event.target.value)}
       />
-      <select
-        className="dropdown-filter"
-        value={clientTypeFilter}
-        onChange={(event) => onClientTypeChange(event.target.value)}
+
+      <div
+        className="client-filter-group"
+        role="group"
         aria-label={`Filter clients for ${manager.name} by type`}
       >
         {clientTypeOptions.map((type) => (
-          <option key={type} value={type}>
-            {type === 'All' ? 'All client types' : type}
-          </option>
+          <button
+            key={type.value}
+            type="button"
+            className={`filter-chip ${clientTypeFilter === type.value ? 'active' : ''} ${type.value.toLowerCase()}`}
+            onClick={() => onClientTypeChange(type.value)}
+          >
+            {type.label}
+          </button>
         ))}
-      </select>      
+      </div>
+
+      <div
+        className="client-filter-group tier-filter-group"
+        role="group"
+        aria-label={`Filter clients for ${manager.name} by tier`}
+      >
+        {clientTierOptions.map((tier) => (
+          <button
+            key={tier.value}
+            type="button"
+            className={`filter-chip tier-chip ${clientTierFilter === tier.value ? 'active' : ''} ${clientTierFilter === 'All' ? 'all-tiers' : ''}`}
+            style={tier.color ? { '--tier-color': tier.color } : undefined}
+            onClick={() => onClientTierChange(tier.value)}
+          >
+            {tier.color && <span className="tier-dot" aria-hidden="true"></span>}
+            {tier.shortLabel}
+          </button>
+        ))}
+      </div>
+
       <ul className="items-list">
         {clients.map((client, index) => (
           <ClientItem
