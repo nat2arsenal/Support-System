@@ -150,6 +150,7 @@ const getGlobalSearchResults = (query, people, clients) => {
       key: client.searchKey,
       kind: 'client',
       title: client.name,
+      coreServices: client.coreServices,
       subtitle: `${client.type} · ${getClientTierLabel(client)}`,
     }));
 
@@ -285,7 +286,12 @@ export default function OrganizationChart() {
                     >
                       <span className={`search-result-kind ${result.kind}`}>{result.kind}</span>
                       <span className="search-result-text">
-                        <span className="search-result-title">{result.title}</span>
+                        <span className="search-result-title">
+                          {result.title}
+                          {result.coreServices?.length && result.coreServices.includes('Service Desk') && (
+                            <span className="service-desk-indicator" title="Service Desk"></span>
+                          )}
+                        </span>
                         <span className="search-result-subtitle">{result.subtitle}</span>
                       </span>
                     </button>

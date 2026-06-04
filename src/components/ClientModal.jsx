@@ -14,7 +14,7 @@ export default function ClientModal({ client, onClose }) {
           x
         </button>
         {client.coreServices?.length && client.coreServices.includes('Service Desk') && (
-        <div className="service-desk-indicator" title="Service Desk"></div>
+          <div className="service-desk-indicator" title="Service Desk"></div>
         )}
         <h2 id="client-modal-title">{client.name}</h2>
 

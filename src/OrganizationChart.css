@@ -515,7 +515,7 @@
   justify-content: space-between;
   align-items: center;
   transition: all 0.2s ease;
-  font-size: 0.95em;
+  font-size: 0.85em;
 }
 
 .employee-item {
@@ -788,13 +788,20 @@
 }
 
 .service-desk-indicator {
+  width: 8px;
+  height: 8px;
+  margin-left: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.modal-backdrop .service-desk-indicator {
+  width: 10px;
+  height: 10px;
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: red;
   animation: flash 2s ease-in-out infinite;
 } 
 
