@@ -796,7 +796,7 @@
   background-color: red;
 }
 
-.modal-backdrop .service-desk-indicator {
+.client-modal .service-desk-indicator {
   width: 10px;
   height: 10px;
   position: absolute;
