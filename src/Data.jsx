@@ -710,9 +710,10 @@ export const organizationData = {
       id: 14,
       name: 'Teflon Siu',
       position: 'Senior System Engineer',
-    company: 'FunctionEight',
+      company: 'FunctionEight',
       image: '/avatars/HK - Teflon Siu.png',
       employees: [
+        { id: 11, name: '', position: '', image: ''},
       ],
       clients: [
         {

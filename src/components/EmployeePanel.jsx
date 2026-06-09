@@ -27,7 +27,9 @@ export default function EmployeePanel({
           />
         ))}
 
-        {employees.length === 0 && <li className="empty-list-item">No engineers found.</li>}
+        {(employees.length === 0 || (employees.length === 1 && employees[0].name === '')) && (
+          <li className="empty-list-item">No engineers found.</li>
+        )}
       </ul>
     </DropdownPanel>
   );
