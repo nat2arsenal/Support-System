@@ -20,7 +20,7 @@ export default function EmployeePanel({
       />      
       <ul className="items-list">
         {employees.map((employee) => (
-          <EmployeeItem
+          employee.name !== '' && <EmployeeItem
             key={employee.id}
             employee={employee}
             onSelect={() => onSelectEmployee(employee)}
