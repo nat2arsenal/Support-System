@@ -1,11 +1,18 @@
 import { useEffect, useMemo, useState } from 'react';
 
+import ClientFilterDropdown from './components/ClientFilterDropdown';
 import ClientModal from './components/ClientModal';
 import PersonSummary from './components/PersonSummary';
 import ManagerSection from './components/ManagerSection';
 import PersonModal from './components/PersonModal';
 import { organizationData } from './Data';
-import { getClientTierLabel, getClientTierValue } from './clientTiers';
+import {
+  defaultClientFilters,
+  filterClients,
+  getClientTierLabel,
+  getClientTierValue,
+  hasServiceDesk,
+} from './clientFilters';
 
 import './OrganizationChart.css';
 
@@ -67,9 +74,23 @@ const getUniqueClients = (clients) => {
     const clientKey = normalizeText(client.name);
     const existingClient = clientsByName.get(clientKey);
 
-    if (!existingClient || (!getClientTierValue(existingClient) && getClientTierValue(client))) {
+    if (!existingClient) {
       clientsByName.set(clientKey, client);
+      return;
     }
+
+    const preferredClient =
+      !getClientTierValue(existingClient) && getClientTierValue(client) ? client : existingClient;
+
+    clientsByName.set(clientKey, {
+      ...preferredClient,
+      coreServices: Array.from(
+        new Set([...(existingClient.coreServices ?? []), ...(client.coreServices ?? [])]),
+      ).filter(Boolean),
+      engineeringTeam: Array.from(
+        new Set([...(existingClient.engineeringTeam ?? []), ...(client.engineeringTeam ?? [])]),
+      ),
+    });
   });
 
   return Array.from(clientsByName.values()).sort((a, b) =>
@@ -121,14 +142,14 @@ const getPeople = (allClients) => {
   ];
 };
 
-const getGlobalSearchResults = (query, people, clients) => {
+const getGlobalSearchResults = (query, people, clients, scope, clientFilters) => {
   const normalizedQuery = normalizeText(query);
 
   if (!normalizedQuery) {
-    return [];
+    return { people: [], clients: [] };
   }
 
-  const matchingPeople = people
+  const matchingPeople = scope === 'clients' ? [] : people
     .filter(
       (person) =>
         normalizeText(person.name).includes(normalizedQuery) ||
@@ -141,10 +162,14 @@ const getGlobalSearchResults = (query, people, clients) => {
       kind: 'person',
       title: person.name,
       subtitle: `${person.position}${person.managerName ? ` · ${person.managerName}` : ''}`,
-    }));
+    })).slice(0, scope === 'people' ? 12 : 6);
 
-  const matchingClients = getUniqueClients(clients)
-    .filter((client) => normalizeText(client.name).includes(normalizedQuery))
+  const filteredClients =
+    scope === 'people'
+      ? []
+      : filterClients(getUniqueClients(clients), query, clientFilters);
+
+  const matchingClients = filteredClients
     .map((client) => ({
       item: client,
       key: client.searchKey,
@@ -152,17 +177,28 @@ const getGlobalSearchResults = (query, people, clients) => {
       title: client.name,
       coreServices: client.coreServices,
       subtitle: `${client.type} · ${getClientTierLabel(client)}`,
-    }));
+    })).slice(0, scope === 'clients' ? 12 : 8);
 
-  return [...matchingPeople, ...matchingClients].slice(0, 12);
+  return {
+    people: matchingPeople,
+    clients: matchingClients,
+    clientCount: filteredClients.length,
+  };
 };
+
+const searchScopeOptions = [
+  { value: 'both', label: 'Both' },
+  { value: 'people', label: 'People' },
+  { value: 'clients', label: 'Clients' },
+];
 
 export default function OrganizationChart() {
   const [activeDropdowns, setActiveDropdowns] = useState({});
-  const [clientTierFilters, setClientTierFilters] = useState({});
+  const [clientFiltersByManager, setClientFiltersByManager] = useState({});
   const [searchQueries, setSearchQueries] = useState({});
-  const [clientTypeFilters, setClientTypeFilters] = useState({});
+  const [globalSearchScope, setGlobalSearchScope] = useState('both');
   const [globalSearchQuery, setGlobalSearchQuery] = useState('');
+  const [globalClientFilters, setGlobalClientFilters] = useState(defaultClientFilters);
   const [selectedClient, setSelectedClient] = useState(null);
   const [selectedPerson, setSelectedPerson] = useState(null);
   const managerColumnCount = useManagerColumnCount();
@@ -174,8 +210,15 @@ export default function OrganizationChart() {
     [people],
   );
   const globalSearchResults = useMemo(
-    () => getGlobalSearchResults(globalSearchQuery, people, allClients),
-    [allClients, globalSearchQuery, people],
+    () =>
+      getGlobalSearchResults(
+        globalSearchQuery,
+        people,
+        allClients,
+        globalSearchScope,
+        globalClientFilters,
+      ),
+    [allClients, globalClientFilters, globalSearchQuery, globalSearchScope, people],
   );
 
   const resetManagerSectionState = (managerId, section) => {
@@ -187,14 +230,9 @@ export default function OrganizationChart() {
     }));
 
     if (section === 'clients') {
-      setClientTypeFilters((prevClientTypes) => ({
-        ...prevClientTypes,
-        [managerId]: 'All',
-      }));
-
-      setClientTierFilters((prevClientTiers) => ({
-        ...prevClientTiers,
-        [managerId]: 'All',
+      setClientFiltersByManager((prevFilters) => ({
+        ...prevFilters,
+        [managerId]: defaultClientFilters,
       }));
     }
   };
@@ -215,15 +253,8 @@ export default function OrganizationChart() {
     }));
   };
 
-  const updateClientTypeFilter = (managerId, value) => {
-    setClientTypeFilters((prevFilters) => ({
-      ...prevFilters,
-      [managerId]: value,
-    }));
-  };
-
-  const updateClientTierFilter = (managerId, value) => {
-    setClientTierFilters((prevFilters) => ({
+  const updateClientFilters = (managerId, value) => {
+    setClientFiltersByManager((prevFilters) => ({
       ...prevFilters,
       [managerId]: value,
     }));
@@ -276,32 +307,90 @@ export default function OrganizationChart() {
 
           {globalSearchQuery.trim() && (
             <div className="global-search-results">
-              <ul>
-                {globalSearchResults.map((result) => (
-                  <li key={result.key}>
-                    <button
-                      className="global-search-result"
-                      type="button"
-                      onClick={() => selectGlobalSearchResult(result)}
-                    >
-                      <span className={`search-result-kind ${result.kind}`}>{result.kind}</span>
-                      <span className="search-result-text">
-                        <span className="search-result-title">
-                          {result.title}
-                          {result.coreServices?.length && result.coreServices.includes('Service Desk') && (
-                            <span className="service-desk-indicator" title="Service Desk"></span>
-                          )}
-                        </span>
-                        <span className="search-result-subtitle">{result.subtitle}</span>
-                      </span>
-                    </button>
-                  </li>
+              <div className="global-search-scope" role="group" aria-label="Choose search result type">
+                {searchScopeOptions.map((option) => (
+                  <button
+                    key={option.value}
+                    type="button"
+                    className={`search-scope-button ${
+                      globalSearchScope === option.value ? 'active' : ''
+                    }`}
+                    aria-pressed={globalSearchScope === option.value}
+                    onClick={() => setGlobalSearchScope(option.value)}
+                  >
+                    {option.label}
+                  </button>
                 ))}
+              </div>
 
-                {globalSearchResults.length === 0 && (
-                  <li className="empty-search-result">No people or clients found.</li>
-                )}
-              </ul>
+              {globalSearchScope !== 'clients' && (
+                <section className="search-result-section">
+                  <h3 className="search-result-section-title">People</h3>
+                  <ul>
+                    {globalSearchResults.people.map((result) => (
+                      <li key={result.key}>
+                        <button
+                          className="global-search-result"
+                          type="button"
+                          onClick={() => selectGlobalSearchResult(result)}
+                        >
+                          <span className={`search-result-kind ${result.kind}`}>{result.kind}</span>
+                          <span className="search-result-text">
+                            <span className="search-result-title">{result.title}</span>
+                            <span className="search-result-subtitle">{result.subtitle}</span>
+                          </span>
+                        </button>
+                      </li>
+                    ))}
+
+                    {globalSearchResults.people.length === 0 && (
+                      <li className="empty-search-result">No people found.</li>
+                    )}
+                  </ul>
+                </section>
+              )}
+
+              {globalSearchScope !== 'people' && (
+                <section className="search-result-section">
+                  <div className="search-result-section-header">
+                    <h3 className="search-result-section-title">Clients</h3>
+                    <ClientFilterDropdown
+                      ariaLabel="Open global client search filters"
+                      filteredClientCount={globalSearchResults.clientCount}
+                      filters={globalClientFilters}
+                      onChange={setGlobalClientFilters}
+                    />
+                  </div>
+
+                  <ul>
+                    {globalSearchResults.clients.map((result) => (
+                      <li key={result.key}>
+                        <button
+                          className="global-search-result"
+                          type="button"
+                          onClick={() => selectGlobalSearchResult(result)}
+                        >
+                          <span className={`search-result-kind ${result.kind}`}>{result.kind}</span>
+                          <span className="search-result-text">
+                            <span className="search-result-title">
+                              {result.title}
+                              {hasServiceDesk(result.item) && (
+                                <span className="service-desk-indicator" title="Service Desk"></span>
+                              )}
+                            </span>
+                            <span className="search-result-subtitle">{result.subtitle}</span>
+                          </span>
+                        </button>
+                      </li>
+                    ))}
+
+                    {globalSearchResults.clients.length === 0 && (
+                      <li className="empty-search-result">No clients found.</li>
+                    )}
+                  </ul>
+                </section>
+              )}
+
             </div>
           )}
         </div>
@@ -339,8 +428,7 @@ export default function OrganizationChart() {
                   activeSection={activeDropdowns[manager.id]}
                   employeeSearch={searchQueries[`${manager.id}-employees`] ?? ''}
                   clientSearch={searchQueries[`${manager.id}-clients`] ?? ''}
-                  clientTierFilter={clientTierFilters[manager.id] ?? 'All'}
-                  clientTypeFilter={clientTypeFilters[manager.id] ?? 'All'}
+                  clientFilters={clientFiltersByManager[manager.id] ?? defaultClientFilters}
                   onToggleSection={toggleSection}
                   onSelectManager={() => selectPerson(`person-manager-${manager.id}`)}
                   onSelectEmployee={(employee) => {
@@ -356,8 +444,7 @@ export default function OrganizationChart() {
                     updateSearchQuery(manager.id, 'employees', value)
                   }
                   onClientSearchChange={(value) => updateSearchQuery(manager.id, 'clients', value)}
-                  onClientTierChange={(value) => updateClientTierFilter(manager.id, value)}
-                  onClientTypeChange={(value) => updateClientTypeFilter(manager.id, value)}
+                  onClientFiltersChange={(value) => updateClientFilters(manager.id, value)}
                   onSelectClient={setSelectedClient}
                 />
               ))}

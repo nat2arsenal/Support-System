@@ -1,5 +1,4 @@
-// import { getClientTierLabel, getClientTierValue } from '../clientTiers';
-import { getClientTierValue } from '../clientTiers';
+import { getClientTierValue } from '../clientFilters';
 
 export default function ClientItem({ client, onSelect }) {
   const clientType = client.type.toLowerCase();

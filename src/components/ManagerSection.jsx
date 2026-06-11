@@ -1,7 +1,7 @@
 import ClientPanel from './ClientPanel';
 import EmployeePanel from './EmployeePanel';
 import ManagerNode from './ManagerNode';
-import { getClientTierValue } from '../clientTiers';
+import { filterClients } from '../clientFilters';
 
 const getFilteredEmployees = (employees, searchQuery) => {
   const normalizedQuery = searchQuery.trim().toLowerCase();
@@ -13,30 +13,14 @@ const getFilteredEmployees = (employees, searchQuery) => {
   );
 };
 
-const getFilteredClients = (clients, searchQuery, typeFilter, tierFilter) => {
-  const normalizedQuery = searchQuery.trim().toLowerCase();
-
-  return clients
-    .filter((client) => {
-      const matchesSearch = client.name.toLowerCase().includes(normalizedQuery);
-      const matchesType = typeFilter === 'All' || client.type === typeFilter;
-      const matchesTier = tierFilter === 'All' || getClientTierValue(client) === tierFilter;
-
-      return matchesSearch && matchesType && matchesTier;
-    })
-    .sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
-};
-
 export default function ManagerSection({
   activeSection,
+  clientFilters,
   clientSearch,
-  clientTierFilter,
-  clientTypeFilter,
   employeeSearch,
   manager,
-  onClientTierChange,
+  onClientFiltersChange,
   onClientSearchChange,
-  onClientTypeChange,
   onEmployeeSearchChange,
   onSelectEmployee,
   onSelectClient,
@@ -46,12 +30,7 @@ export default function ManagerSection({
   const employeesExpanded = activeSection === 'employees';
   const clientsExpanded = activeSection === 'clients';
   const filteredEmployees = getFilteredEmployees(manager.employees, employeeSearch);
-  const filteredClients = getFilteredClients(
-    manager.clients,
-    clientSearch,
-    clientTypeFilter,
-    clientTierFilter,
-  );
+  const filteredClients = filterClients(manager.clients, clientSearch, clientFilters);
 
   return (
     <div className="manager-section">
@@ -80,12 +59,10 @@ export default function ManagerSection({
         {clientsExpanded && (
           <ClientPanel
             clients={filteredClients}
-            clientTierFilter={clientTierFilter}
-            clientTypeFilter={clientTypeFilter}
+            clientFilters={clientFilters}
             manager={manager}
-            onClientTierChange={onClientTierChange}
+            onClientFiltersChange={onClientFiltersChange}
             searchQuery={clientSearch}
-            onClientTypeChange={onClientTypeChange}
             onSearchChange={onClientSearchChange}
             onSelectClient={onSelectClient}
           />

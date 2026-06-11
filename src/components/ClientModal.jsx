@@ -1,4 +1,4 @@
-import { getClientTierLabel } from '../clientTiers';
+import { getClientTierLabel } from '../clientFilters';
 
 export default function ClientModal({ client, onClose }) {
   return (
