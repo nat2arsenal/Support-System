@@ -895,6 +895,7 @@
 .person-modal h2 {
   margin: 0 0 30px 0;
   font-size: 1.55em;
+  padding-inline: 25px;
 }
 
 .person-modal {

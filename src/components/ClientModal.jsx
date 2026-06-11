@@ -16,7 +16,11 @@ export default function ClientModal({ client, onClose }) {
         {client.coreServices?.length && client.coreServices.includes('Service Desk') && (
           <div className="service-desk-indicator" title="Service Desk"></div>
         )}
-        <h2 id="client-modal-title">{client.name}</h2>
+        {client.fullCompanyName && client.fullCompanyName !== '' ? (
+          <h2 id="client-modal-title">{client.fullCompanyName}</h2>
+        ) : (
+          <h2 id="client-modal-title">{client.name}</h2>
+        )}
 
         <div className="client-detail-section">
           <h3>Client Type</h3>
@@ -29,8 +33,8 @@ export default function ClientModal({ client, onClose }) {
         </div>
 
         <div className="client-detail-section">
-          <h3>Invoice Text</h3>
-          <p>{client.invoiceText}</p>
+          <h3>Hours Purchased</h3>
+          <p>{client.hoursPurchased}</p>
         </div>
 
         <div className="client-detail-section">
