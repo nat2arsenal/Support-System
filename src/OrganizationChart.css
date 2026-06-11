@@ -895,6 +895,8 @@
 .person-modal h2 {
   margin: 0 0 30px 0;
   font-size: 1.55em;
+}
+.client-modal h2 {
   padding-inline: 25px;
 }
 
