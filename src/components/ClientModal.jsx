@@ -34,7 +34,7 @@ export default function ClientModal({ client, onClose }) {
 
         <div className="client-detail-section">
           <h3>Hours Purchased</h3>
-          <p>{client.hoursPurchased}</p>
+          <p className="hours-purchased-text">{client.hoursPurchased}</p>
         </div>
 
         <div className="client-detail-section">

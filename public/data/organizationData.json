@@ -565,14 +565,15 @@
       "managerId": "manager-kay-yeung",
       "name": "Oval",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "Onsite IT Support for Hong Kong Office:\nMonday 09:30-12:30 & 14:30-17:30\nTuesday 10:00-13:00\nWednesday 10:00-12:00 & 14:00-16:00\nThursday 10:00-12:00 & 14:00-16:00\nFriday 10:00-13:00\nMonthly IT Report\nRemote IT Support to Hong Kong Office including Shanghai and Huizhou saellite offices\nRemote IT Support to Beijing Office\nSynology NAS Offsite Backup\nPhysical hardware hosting for a 6-bay Synology NAS for offsite backup\nIncremental backup from Oval office fileserver every night\nOval UK office support\n- Unlimited Desktop support for users with an average response time of ~ 15 minutes\n- Coverage for up to 5 users and handled by the F8 Helpdesk team (English as a support language)\n- The remote support will be available during Monday-Friday 09.00-18.00 (UK time)\n- Remote checking of backup\n- Onsite support, if required, will be quoted and billed separately",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-derek-lai"
       ],
-      "tier": "tier-b"
+      "tier": "tier-b",
+      "fullCompanyName": "The Oval Partnership Limited"
     },
     {
       "id": "client-kay-yeung-102-h-properties-2",
@@ -580,24 +581,25 @@
       "managerId": "manager-kay-yeung",
       "name": "H Properties",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "1. Onsite Support\n- 20 hours onsite service per week\n- No carry-forward (accumulation) of monthly onsite hours are allowed\n- Onsite locations:\n- Headquarters\n- Infinitus Plaza\n- Lee Kum Kee Central\n- Nam Hing Fong\n2. Remote Support\n- Unlimited remote hours\n3. Infrastructure support\n- Unlimited infrastructure management hours\n\nSupporting hours: 9am to 6pm Mon to Fri, excluding public holidays",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kay-yeung"
       ],
-      "tier": "tier-a"
+      "tier": "tier-a",
+      "fullCompanyName": "H Properties Limited"
     },
     {
       "id": "client-kay-yeung-103-triide-3",
       "legacyId": 103,
       "managerId": "manager-kay-yeung",
-      "name": "Triide",
+      "name": "Triide Holding Limited",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- Unlimited remote IT support up to 100 users (fair use)\n- Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\nMonthly IT Infrastructure Management\n- Microsoft 365 single tenant (up to 500 users)\n- PRTG Network Monitoring (up to 20 infrastructure devices)\n- Up to 6 hours of manual infrastructure & cybersecurity monitoring per month",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kay-yeung"
@@ -610,14 +612,15 @@
       "managerId": "manager-kay-yeung",
       "name": "Limetree",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "Mixture of Onsite & Remote Support - 32 hours per month\nTWO 4-hour onsite every week\nBILL IN ADVANCE",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kay-yeung"
       ],
-      "tier": "tier-a"
+      "tier": "tier-a",
+      "fullCompanyName": "LimeTree Capital Advisors Limited"
     },
     {
       "id": "client-kay-yeung-105-eal-5",
@@ -655,24 +658,25 @@
       "managerId": "manager-kay-yeung",
       "name": "Perfectos",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- IT infrastructure management including Cybersecurity, Backup\n- IT user support up to 20 Users\n- Up to 10 hours onsite/remote desktop task\n- Support Hours: Mon-Fri 9am to 6pm (HKT, excluding Hong Kong Public Holidays)\nMonthly Microsoft Azure Virtual Server subscriptions\n- Three VMs (AD, FS and LM4)\n- CPU, RAM, HDD resources\nAdditional monthly subscription for the Azure VMs\n- Azure Backup of all servers\n- Crowdstrike anti-virus protection for servers",
       "coreServices": [
-        ""
+        "Monthly IT Support" 
       ],
       "engineeringTeamIds": [
         "engineer-alvin-luk"
       ],
-      "tier": "tier-b"
+      "tier": "tier-b",
+      "fullCompanyName": "Perfectos Hong Kong Ltd."
     },
     {
       "id": "client-kay-yeung-108-rockpool-8",
       "legacyId": 108,
       "managerId": "manager-kay-yeung",
-      "name": "Rockpool",
+      "name": "Rockpool Capital Limited",
       "type": "Recurring",
-      "hoursPurchased": "10 hours - Mixture of onsite and remote support",
+      "hoursPurchased": "Up to 20 Users\nUp to 6 Hours Onsite / Remote support (no carry over)\nBILL IN ADVANCE",
       "coreServices": [
-        "Standard IT Support"
+        "Standard IT Support", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kay-yeung"
@@ -716,14 +720,15 @@
       "managerId": "manager-kay-yeung",
       "name": "Funville",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- IT Support (12hrs/month)\nRemote Maintenance Management Fee\n- Remote Maintenance Desktop / Laptop x 36\n- Remote Server Maintenance x 2",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-alvin-luk"
       ],
-      "tier": "tier-b"
+      "tier": "tier-b",
+      "fullCompanyName": "Funville Limited"
     },
     {
       "id": "client-kay-yeung-113-hauck-12",
@@ -731,14 +736,15 @@
       "managerId": "manager-kay-yeung",
       "name": "Hauck",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "1. Onsite Support from Monday-Friday (9am to 6pm HKT)\n- Hong Kong Public Holidays are excluded\n2. Remote monitoring and management of IT infrastructure\n\nBILL IN ADVANCE",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-justin-chung"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "Hauck (Hong Kong) Limited"
     },
     {
       "id": "client-kay-yeung-114-egis-13",
@@ -746,14 +752,15 @@
       "managerId": "manager-kay-yeung",
       "name": "EGIS",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- 2 full days onsite IT support per week",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-victor-cheng"
       ],
-      "tier": "tier-a"
+      "tier": "tier-a",
+      "fullCompanyName": "EGIS Group"
     },
     {
       "id": "client-kay-yeung-115-aplma-14",
@@ -761,14 +768,15 @@
       "managerId": "manager-kay-yeung",
       "name": "APLMA",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- 24x5 IT Support\n- Up to 8 hours monthly support (consultancy, onsite and remote)\n- Infrastructure Management, Cloud Management\n- Cybersecurity Management\n- End user support\n- Remote Quarterly Management Meeting\nSupport hours from Monday to Friday 09:00-18:00 exclude Public Holidays\n*Bill separate invoice with Website Maintenance",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-justin-chung"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "Asia Pacific Loan Market Association"
     },
     {
       "id": "client-kay-yeung-116-kyo-capital-15",
@@ -776,7 +784,7 @@
       "managerId": "manager-kay-yeung",
       "name": "KYO Capital",
       "type": "Recurring",
-      "hoursPurchased": "Mixture of onsite and remote support - Up to 2 hours onsite per month - No carry-forward (accumulation) of monthly hours are allowed",
+      "hoursPurchased": "Mixture of onsite and remote support\n- Up to 2 hours onsite per month\nNo carry-forward (accumulation) of monthly hours are allowed",
       "coreServices": [
         "Standard IT Support"
       ],
@@ -837,14 +845,15 @@
       "managerId": "manager-kay-yeung",
       "name": "Fidinam",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- Up to 7 hours onsite services per month\n- Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\n*Bill separate invoice with Website Maintenance",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-harold-sit"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "Fidinam (Hong Kong) Limited"
     },
     {
       "id": "client-kay-yeung-121-letters-thoo-20",
@@ -880,11 +889,11 @@
       "id": "client-kay-yeung-124-signal-8-22",
       "legacyId": 124,
       "managerId": "manager-kay-yeung",
-      "name": "Signal 8",
+      "name": "Signal 8 Security",
       "type": "Recurring",
-      "hoursPurchased": "20 hours ONSITE Support",
+      "hoursPurchased": "- Unlimited Remote IT Support (8 users)\n*Bill separate invoice with Website Maintenance",
       "coreServices": [
-        "Standard IT Support"
+        "Standard IT Support", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-justin-chung"
@@ -896,11 +905,11 @@
       "id": "client-kay-yeung-126-zaaba-23",
       "legacyId": 126,
       "managerId": "manager-kay-yeung",
-      "name": "Zaaba",
+      "name": "Zaaba Capital Limited",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "10 hours per month - Mixture of onsite and remote\n\nMonthly Backup Hosting\nDR data hosting\nMonthly Backup, monitoring and maintenance",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-harold-sit"
@@ -913,14 +922,15 @@
       "managerId": "manager-kay-yeung",
       "name": "Zaha",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- IT Support Mixture of Onsite and Remote (12hrs/month)",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-derek-lai"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "Zaha Hadid Hong Kong Limited"
     },
     {
       "id": "client-kay-yeung-128-naga-25",
@@ -1106,14 +1116,15 @@
       "managerId": "manager-kay-yeung",
       "name": "Chin Teik (SG)",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "Remote support",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kay-yeung"
       ],
-      "tier": ""
+      "tier": "",
+      "fullCompanyName": "Chin Teik Consulting Limited"
     },
     {
       "id": "client-kay-yeung-141-sphere-sg-37",
@@ -1121,14 +1132,15 @@
       "managerId": "manager-kay-yeung",
       "name": "Sphere (SG)",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- Up to 20 hours of IT Service per month\n1. Remote support\n- Minimum deduction of 0.25 hour per issue raised\n2. Onsite support\n- Minimum deduction of 2 hours per issue raised\n3. Consultation support\n- Minimum deduction of 0.5 hour(s) per issue raised\n4. Digital support\n- Minimum deduction of 0.5 hour(s) per issue raised\n5. Procurement support\n- Minimum deduction of 0.25 hour per issue raised\n6. Word Press Maintenance\n- Monthly deduction of 2 hours WordPress Maintenance for:\nspherestate.com, csc-partners.co\n7. IT Security Monitoring\n- Monthly deduction of 1 hour for IT Security Monitoring\nSupport Hours: Mon-Fri 9am to 6pm (HKT)\nPublic Holidays (Hong Kong calendar) excluded\nNo carry-forward (accumulation) of monthly hours are allowed",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kay-yeung"
       ],
-      "tier": "tier-b"
+      "tier": "tier-b",
+      "fullCompanyName": "Sphere State Group"
     },
     {
       "id": "client-kay-yeung-142-albarine-38",
@@ -1245,14 +1257,15 @@
       "managerId": "manager-kenneth-ip",
       "name": "TTB (SG)",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- 24x5 IT Support (Monday to Friday 0900 HK Time to 1800 UK Time)\n- Up to 8 hours monthly support (consultancy, onsite and remote)\n- Infrastructure Management, Cloud Management\n- Cybersecurity Management\n- End user support\n- Quarterly Management meeting\n------------------------------------------------------------------------------------------\nMicrosoft Azure Subscription\n- Azure Virtual Server AD (B2ms)\n- Azure Virtual Server Fileserver (B4ms)\n- Azure Backup\n- Backup to F8 SG Azure Infrastructure",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Managed IT Support Services for Hong Kong & UK Offices"
       ],
       "engineeringTeamIds": [
         "engineer-russell-wan"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "TTB Partners Limited"
     },
     {
       "id": "client-kenneth-ip-144-buddy-finance-4",
@@ -1260,14 +1273,15 @@
       "managerId": "manager-kenneth-ip",
       "name": "Buddy Finance",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "Up to 8 Hours per month - Mixture of onsite and remote\nCorporate Website Management (WIX)\nDomain and DNS Management\n-----------------------------------------------------------------------------------------\nSFTP Server Hosting\n15G Storage / 4 Users Accounts / Unlimited End User Device License",
       "coreServices": [
-        ""
+        "Monthly Cloud Infrastructure Management"
       ],
       "engineeringTeamIds": [
         "engineer-kenneth-ip"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "Buddy Finance Limited"
     },
     {
       "id": "client-kenneth-ip-145-kavod-5",
@@ -1291,14 +1305,15 @@
       "managerId": "manager-kenneth-ip",
       "name": "Aletheia",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "Business Hours Support Service\n Up to 6 hours per month\n - 4 hours response time\nBILL IN ADVANCE",
       "coreServices": [
-        ""
+        "Technical Support Services"
       ],
       "engineeringTeamIds": [
         "engineer-kenneth-ip"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "Aletheia Anaylst Network Limited"
     },
     {
       "id": "client-kenneth-ip-145-obsidian-7",
@@ -1306,14 +1321,15 @@
       "managerId": "manager-kenneth-ip",
       "name": "Obsidian",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- Pause regular onsite visits, remain available for urgent onsite needs.\n- All other support provided remotely.\n- Monday to Friday 9am to 6pm Hong Kong Time (excluding Hong Kong Public Holidays)\nRemark: This is a special arrangement extended to Obsidian to provide support during a transitional",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kenneth-ip"
       ],
-      "tier": "tier-d"
+      "tier": "tier-d",
+      "fullCompanyName": "Obsidian HK Limited"
     },
     {
       "id": "client-kenneth-ip-145-lion-rock-8",
@@ -1365,11 +1381,11 @@
       "id": "client-samuel-wong-147-spca-2",
       "legacyId": 147,
       "managerId": "manager-samuel-wong",
-      "name": "SPCA",
+      "name": "SPCA Hong Kong",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "1. Onsite Support\nWanchai : Mondays to Fridays (8:45am to 6:00pm HKT)\n- Hong Kong Public Holidays are excluded\n- Additional hours will be charged according to Appendix A\n8 Man days per month for different office\n- Mondays to Fridays (8:45am to 6:00pm HKT, exclude HK Public Holidays)\n- Non-office hours onsite will be counted in a multiple of 2\n2. Remote Support\n- 24x7 remote support outside the onsite support hours\n- Onsite visit to support will be charged according to Appendix A",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kin-leung",
@@ -1413,14 +1429,15 @@
       "managerId": "manager-samuel-wong",
       "name": "Apeiron",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- Unlimited Remote Support up to 40 users per month\n- Onsite Support up to 6 hours per month for HK\n- Onsite Support up to 3 hours per month for Singapore\n- Consultation Support up to 2 hours per month for HK & Singapore\n- IT Security Monitoring with report.\n- Support hours from Monday to Friday 09:00-18:00",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong"
       ],
-      "tier": "tier-b"
+      "tier": "tier-b",
+      "fullCompanyName": "Apeiron International (HK) Limited"
     },
     {
       "id": "client-samuel-wong-151-ceratec-6",
@@ -1428,14 +1445,15 @@
       "managerId": "manager-samuel-wong",
       "name": "Ceratec",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "Unlimited Remote Support\nHong Kong Office - 12 users\nBILL IN ADVANCE",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong"
       ],
-      "tier": "tier-d"
+      "tier": "tier-d",
+      "fullCompanyName": "Ceratec (Hong Kong) Limited"
     },
     {
       "id": "client-samuel-wong-151-charlton-7",
@@ -1443,29 +1461,31 @@
       "managerId": "manager-samuel-wong",
       "name": "Charlton",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- 1 hour per month (Mixture of onsite and remote)",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong"
       ],
-      "tier": "tier-d"
+      "tier": "tier-d",
+      "fullCompanyName": "Charlton House WM Ltd"
     },
     {
       "id": "client-samuel-wong-151-endava-sg-8",
       "legacyId": 151,
       "managerId": "manager-samuel-wong",
-      "name": "Endava (SG)",
+      "name": "Endava (UK)",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "IT Support (8 days per month) - Onsite\nClient: Alexander Mann Solutions (SH)\nProject Code: AMSSHS001",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong"
       ],
-      "tier": ""
+      "tier": "",
+      "fullCompanyName": "Endava (UK) Limited"
     },
     {
       "id": "client-samuel-wong-151-jinshi-9",
@@ -1473,24 +1493,25 @@
       "managerId": "manager-samuel-wong",
       "name": "Jinshi",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "1. Onsite / Remote Support\n2. Infrastructure support\nSupporting hours: 9am to 6pm Mon to Fri, excluding public holidays",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "Jinshi Asset Management Limited"
     },
     {
       "id": "client-samuel-wong-151-ovc-10",
       "legacyId": 151,
       "managerId": "manager-samuel-wong",
-      "name": "OVC",
+      "name": "OVC Services Limited",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "15 hours IT Support (onsite/remote) Services\n- Services Hours: 9am to 6pm Mon to Fri, excluding public holidays\n- Maximum 2 hours can be carried forward to next month",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-tony-li",
@@ -1504,14 +1525,15 @@
       "managerId": "manager-samuel-wong",
       "name": "True Fame (LPM)",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "1. Onsite Support\n- Up to 3 hours per month\n2. Remote Support\n- Up to 15 calls per month\nSupport Hours: From Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\nNo carry-forward (accumulation) of monthly hours are allowed",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong"
       ],
-      "tier": "tier-a"
+      "tier": "tier-a",
+      "fullCompanyName": "True Fame Ventures Limited (LPM)"
     },
     {
       "id": "client-samuel-wong-151-zuma-12",
@@ -1519,14 +1541,15 @@
       "managerId": "manager-samuel-wong",
       "name": "Zuma",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "1. Onsite IT Support\n- Up to 4 hours per month\n2. Remote Support\n- Unlimited remote support during office hours\nOffice Hours: Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\nNo hours can be carried forward to next month",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong"
       ],
-      "tier": "tier-c"
+      "tier": "tier-c",
+      "fullCompanyName": "Zuma Restaurant Hong Kong\n(Time Result Investments Limited)"
     },
     {
       "id": "client-samuel-wong-151-cathay-vest-13",
@@ -1634,7 +1657,7 @@
       "managerId": "manager-samuel-wong",
       "name": "Jellycat",
       "type": "Prepaid",
-      "hoursPurchased": "50 hours support 1. Procurement support - Minimum deduction of 1.5 hours per user/issue raised. 2. Remote support - Minimum deduction of 1 hour(s) per issue raised 3. Consultation support - Minimum deduction of 1 hour(s) per issue raised 4. Digital support - Minimum deduction of 1 hour(s) per issue raised",
+      "hoursPurchased": "50 hours support\n1. Procurement support\n- Minimum deduction of 1.5 hours per user/issue raised\n2. Remote support\n- Minimum deduction of 1 hour(s) per issue raised\n3. Consultation support\n- Minimum deduction of 1 hour(s) per issue raised\n4. Digital support\n- Minimum deduction of 1 hour(s) per issue raised",
       "coreServices": [
         "Standard IT Support"
       ],
@@ -1697,9 +1720,9 @@
       "managerId": "manager-teflon-siu",
       "name": "Pharo",
       "type": "Recurring",
-      "hoursPurchased": "50 hours - Mixture of onsite and remote support",
+      "hoursPurchased": "Onsite support service\n- Half-day visit daily per month\n- Support Hours: Monday-Friday 8:30am-12:30pm (HKT) (Public Holidays excluded)\nInfrastructure support service\n- Regular checks on Server, Firewall and Backup at HK office",
       "coreServices": [
-        "Standard IT Support"
+        "Standard IT Support", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-teflon-siu"
@@ -1726,11 +1749,11 @@
       "id": "client-teflon-siu-153-profile-wilson-grp-3",
       "legacyId": 153,
       "managerId": "manager-teflon-siu",
-      "name": "Profile (Wilson Grp)",
+      "name": "The Profile Group (HK) Ltd",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- up to 12 hours of onsite/remote support",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-teflon-siu"
@@ -1771,11 +1794,11 @@
       "id": "client-teflon-siu-156-resolution-chambers-6",
       "legacyId": 156,
       "managerId": "manager-teflon-siu",
-      "name": "Resolution Chambers",
+      "name": "Resolution Chambers Ltd",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "1. Infrastructure Monitoring and Maintenance\n- Monitoring of all servers and network devices\n- Backup Monitoring\n- Routine maintenance of network devices and servers\n- React and escalate for alerts or issues\n2. IT Support\na. Remote Support\n- Umlimited remote support for up to 3 users and handled by F8 Helpdesk team (English as a support language)\n- Average response time of around 15 mins\n- Monday to Friday within Business Hours 0900-1800 HKT\nb. Onsite Support\n- 2 Hours regular onsite per month for user and server issue\n- Proactive check with all users on desktop issues\n- Handle outstanding issues that cannot be fixed remotely",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-teflon-siu"
@@ -1786,11 +1809,11 @@
       "id": "client-teflon-siu-157-white-cube-7",
       "legacyId": 157,
       "managerId": "manager-teflon-siu",
-      "name": "White Cube",
+      "name": "White Cube Hong Kong",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "4 hours per month - Mixture of onsite and remote\nArrange & manage Avaya specialist support",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-teflon-siu"
@@ -1817,11 +1840,11 @@
       "id": "client-teflon-siu-158-made-partners-9",
       "legacyId": 158,
       "managerId": "manager-teflon-siu",
-      "name": "Made Partners",
+      "name": "Made Partners Limited",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- IT Support: 2 hrs/month Emergency Support (Mixture of onsite and remote)",
       "coreServices": [
-        ""
+        "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-teflon-siu"
@@ -1914,15 +1937,16 @@
       "managerId": "manager-harris-leong",
       "name": "Connect",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "Unlimited Remote support for up to 15 users\n- Handled by our F8 Helpdesk team\n- Mon-Fri 09:00-18:00\n- Fair-use policy\nOnsite support\n- Up to 2 Hours per week",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kay-yeung",
         "engineer-john-wong"
       ],
-      "tier": ""
+      "tier": "",
+      "fullCompanyName": "Connect Communication"
     },
     {
       "id": "client-harris-leong-161-letters-thoo-3",
@@ -1930,9 +1954,9 @@
       "managerId": "manager-harris-leong",
       "name": "Letters & Thoo",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- 4 hours Onsite Support Per Month\n- Unlimited Remote Support for <10 users (Mon-Fri, 9am-6pm)",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-kay-yeung"
@@ -2104,9 +2128,9 @@
       "managerId": "manager-harris-leong",
       "name": "Mother's Choice",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "1. Onsite support\n- Up to 16 hours per month during weekday office hour (9am to 6pm, exclude HK Public Holidays)\n- No hours can be carried forward to next month\n2. Remote support\n- Unlimited remote support during office hours\n3. Infrastructure support\n- Remote monitoring and management of the IT infrastructure\n\n--------------------------------------------------------------\n\n- Azure B4Ms Server for domain controller\n- Azure Backup\n- Crowdstrike protection",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support", "Microsoft Azure License"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong",
@@ -2120,20 +2144,21 @@
       "managerId": "manager-harris-leong",
       "name": "Nexus Point",
       "type": "Recurring",
-      "hoursPurchased": "",
+      "hoursPurchased": "- Unlimited remote hours\n- Unlimited infrastructure management hours\n- Up to 25 users\n- Up to 12 hours onsite service per month\nSupport Hours: From Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\nNo hours can be carried forward to next month",
       "coreServices": [
-        "Service Desk"
+        "Service Desk", "Monthly IT Support"
       ],
       "engineeringTeamIds": [
         "engineer-samuel-wong"
       ],
-      "tier": ""
+      "tier": "",
+      "fullCompanyName": "Nexus Point Advisors (HK) Limited"
     },
     {
       "id": "client-harris-leong-161-spca-16",
       "legacyId": 161,
       "managerId": "manager-harris-leong",
-      "name": "SPCA",
+      "name": "SPCA Hong Kong",
       "type": "Recurring",
       "hoursPurchased": "",
       "coreServices": [

@@ -1030,6 +1030,10 @@
   line-height: 1.5;
 }
 
+.hours-purchased-text {
+  white-space: pre-line;
+}
+
 .client-detail-section ul {
   margin: 0;
   list-style: none;
