@@ -71,7 +71,7 @@ const getUniqueClients = (clients) => {
   const clientsByName = new Map();
 
   clients.forEach((client) => {
-    const clientKey = normalizeText(client.name);
+    const clientKey = `${normalizeText(client.name)}-${normalizeText(client.type)}`;
     const existingClient = clientsByName.get(clientKey);
 
     if (!existingClient) {
@@ -89,6 +89,9 @@ const getUniqueClients = (clients) => {
       ).filter(Boolean),
       engineeringTeam: Array.from(
         new Set([...(existingClient.engineeringTeam ?? []), ...(client.engineeringTeam ?? [])]),
+      ),
+      managerIds: Array.from(
+        new Set([...(existingClient.managerIds ?? []), ...(client.managerIds ?? [])]),
       ),
     });
   });
