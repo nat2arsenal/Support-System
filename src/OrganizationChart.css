@@ -19,6 +19,19 @@
   font-weight: 600;
 }
 
+.data-state .chart-header {
+  display: grid;
+  place-items: center;
+  gap: 14px;
+  min-height: 220px;
+  margin-bottom: 0;
+}
+
+.data-state-message {
+  color: #5a6674;
+  font-size: 0.98em;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

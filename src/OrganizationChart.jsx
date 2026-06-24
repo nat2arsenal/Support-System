@@ -5,7 +5,6 @@ import ClientModal from './components/ClientModal';
 import PersonSummary from './components/PersonSummary';
 import ManagerSection from './components/ManagerSection';
 import PersonModal from './components/PersonModal';
-import { organizationData } from './Data';
 import {
   defaultClientFilters,
   filterClients,
@@ -13,6 +12,7 @@ import {
   getClientTierValue,
   hasServiceDesk,
 } from './clientFilters';
+import { fetchOrganizationData } from './data/organizationDataService';
 
 import './OrganizationChart.css';
 
@@ -98,7 +98,7 @@ const getUniqueClients = (clients) => {
   );
 };
 
-const getAllClients = () =>
+const getAllClients = (organizationData) =>
   organizationData.managers.flatMap((manager) =>
     manager.clients.map((client, index) => ({
       ...client,
@@ -107,7 +107,7 @@ const getAllClients = () =>
     })),
   );
 
-const getPeople = (allClients) => {
+const getPeople = (organizationData, allClients) => {
   const findClientsForPerson = (personName) =>
     getUniqueClients(
       allClients.filter((client) =>
@@ -193,6 +193,9 @@ const searchScopeOptions = [
 ];
 
 export default function OrganizationChart() {
+  const [organizationData, setOrganizationData] = useState(null);
+  const [dataStatus, setDataStatus] = useState('loading');
+  const [dataError, setDataError] = useState(null);
   const [activeDropdowns, setActiveDropdowns] = useState({});
   const [clientFiltersByManager, setClientFiltersByManager] = useState({});
   const [searchQueries, setSearchQueries] = useState({});
@@ -202,9 +205,45 @@ export default function OrganizationChart() {
   const [selectedClient, setSelectedClient] = useState(null);
   const [selectedPerson, setSelectedPerson] = useState(null);
   const managerColumnCount = useManagerColumnCount();
-  const managerRows = chunkItems(organizationData.managers, managerColumnCount);
-  const allClients = useMemo(() => getAllClients(), []);
-  const people = useMemo(() => getPeople(allClients), [allClients]);
+
+  useEffect(() => {
+    let isCurrent = true;
+
+    fetchOrganizationData()
+      .then((data) => {
+        if (!isCurrent) {
+          return;
+        }
+
+        setOrganizationData(data);
+        setDataStatus('success');
+      })
+      .catch((error) => {
+        if (!isCurrent) {
+          return;
+        }
+
+        setDataError(error);
+        setDataStatus('error');
+      });
+
+    return () => {
+      isCurrent = false;
+    };
+  }, []);
+
+  const managerRows = useMemo(
+    () => chunkItems(organizationData?.managers ?? [], managerColumnCount),
+    [managerColumnCount, organizationData],
+  );
+  const allClients = useMemo(
+    () => (organizationData ? getAllClients(organizationData) : []),
+    [organizationData],
+  );
+  const people = useMemo(
+    () => (organizationData ? getPeople(organizationData, allClients) : []),
+    [allClients, organizationData],
+  );
   const peopleByKey = useMemo(
     () => new Map(people.map((person) => [person.searchKey, person])),
     [people],
@@ -220,6 +259,30 @@ export default function OrganizationChart() {
       ),
     [allClients, globalClientFilters, globalSearchQuery, globalSearchScope, people],
   );
+
+  if (dataStatus === 'loading') {
+    return (
+      <div className="org-chart-container data-state">
+        <div className="chart-header">
+          <h1 className="chart-title">HK Client Portfolio</h1>
+          <p className="data-state-message">Loading organization data...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (dataStatus === 'error' || !organizationData) {
+    return (
+      <div className="org-chart-container data-state">
+        <div className="chart-header">
+          <h1 className="chart-title">HK Client Portfolio</h1>
+          <p className="data-state-message">
+            {dataError?.message ?? 'Unable to load organization data.'}
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   const resetManagerSectionState = (managerId, section) => {
     const searchKey = `${managerId}-${section}`;

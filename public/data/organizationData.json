@@ -1,0 +1,2225 @@
+{
+  "director": {
+    "id": "director-allo-hui",
+    "legacyId": 1,
+    "name": "Allo Hui",
+    "position": "IT & Operations Director",
+    "company": "FunctionEight",
+    "image": "/avatars/HK - Allo Hui.png"
+  },
+  "managers": [
+    {
+      "id": "manager-kay-yeung",
+      "legacyId": 2,
+      "engineerId": "engineer-kay-yeung",
+      "employeeIds": [
+        "engineer-derek-lai",
+        "engineer-harold-sit",
+        "engineer-alvin-luk",
+        "engineer-justin-chung",
+        "engineer-victor-cheng"
+      ],
+      "clientIds": [
+        "client-kay-yeung-101-oval-1",
+        "client-kay-yeung-102-h-properties-2",
+        "client-kay-yeung-103-triide-3",
+        "client-kay-yeung-104-limetree-4",
+        "client-kay-yeung-105-eal-5",
+        "client-kay-yeung-106-eip-6",
+        "client-kay-yeung-107-perfectos-7",
+        "client-kay-yeung-108-rockpool-8",
+        "client-kay-yeung-109-npl-9",
+        "client-kay-yeung-111-apeiron-sg-10",
+        "client-kay-yeung-112-funville-11",
+        "client-kay-yeung-113-hauck-12",
+        "client-kay-yeung-114-egis-13",
+        "client-kay-yeung-115-aplma-14",
+        "client-kay-yeung-116-kyo-capital-15",
+        "client-kay-yeung-117-connect-16",
+        "client-kay-yeung-118-tta-17",
+        "client-kay-yeung-119-cccl-18",
+        "client-kay-yeung-120-fidinam-19",
+        "client-kay-yeung-121-letters-thoo-20",
+        "client-kay-yeung-122-r-lewis-sanders-21",
+        "client-kay-yeung-124-signal-8-22",
+        "client-kay-yeung-126-zaaba-23",
+        "client-kay-yeung-127-zaha-24",
+        "client-kay-yeung-128-naga-25",
+        "client-kay-yeung-129-austcham-26",
+        "client-kay-yeung-130-grace-27",
+        "client-kay-yeung-131-cotton-on-28",
+        "client-kay-yeung-132-zhao-da-29",
+        "client-kay-yeung-133-caia-30",
+        "client-kay-yeung-134-pathos-31",
+        "client-kay-yeung-135-destination-china-32",
+        "client-kay-yeung-136-sedona-33",
+        "client-kay-yeung-137-weichert-34",
+        "client-kay-yeung-139-uib-sg-35",
+        "client-kay-yeung-140-chin-teik-sg-36",
+        "client-kay-yeung-141-sphere-sg-37",
+        "client-kay-yeung-142-albarine-38",
+        "client-kay-yeung-143-broadsword-39",
+        "client-kay-yeung-144-exellar-40",
+        "client-kay-yeung-145-options-41",
+        "client-kay-yeung-146-red-bull-42"
+      ]
+    },
+    {
+      "id": "manager-kenneth-ip",
+      "legacyId": 3,
+      "engineerId": "engineer-kenneth-ip",
+      "employeeIds": [
+        "engineer-russell-wan"
+      ],
+      "clientIds": [
+        "client-kenneth-ip-140-ninemasts-bct-1",
+        "client-kenneth-ip-141-bct-others-2",
+        "client-kenneth-ip-143-ttb-sg-3",
+        "client-kenneth-ip-144-buddy-finance-4",
+        "client-kenneth-ip-145-kavod-5",
+        "client-kenneth-ip-145-aletheia-6",
+        "client-kenneth-ip-145-obsidian-7",
+        "client-kenneth-ip-145-lion-rock-8",
+        "client-kenneth-ip-145-long-corridor-9"
+      ]
+    },
+    {
+      "id": "manager-samuel-wong",
+      "legacyId": 4,
+      "engineerId": "engineer-samuel-wong",
+      "employeeIds": [
+        "engineer-tony-li",
+        "engineer-kin-leung",
+        "engineer-steve-wong"
+      ],
+      "clientIds": [
+        "client-samuel-wong-146-rugby-1",
+        "client-samuel-wong-147-spca-2",
+        "client-samuel-wong-148-mother-s-choice-3",
+        "client-samuel-wong-150-nexus-point-4",
+        "client-samuel-wong-151-apeiron-5",
+        "client-samuel-wong-151-ceratec-6",
+        "client-samuel-wong-151-charlton-7",
+        "client-samuel-wong-151-endava-sg-8",
+        "client-samuel-wong-151-jinshi-9",
+        "client-samuel-wong-151-ovc-10",
+        "client-samuel-wong-151-true-fame-lpm-11",
+        "client-samuel-wong-151-zuma-12",
+        "client-samuel-wong-151-cathay-vest-13",
+        "client-samuel-wong-151-horace-w-14",
+        "client-samuel-wong-151-skyway-pacific-15",
+        "client-samuel-wong-151-arts-of-asia-16",
+        "client-samuel-wong-151-barker-17",
+        "client-samuel-wong-151-ccw-18",
+        "client-samuel-wong-151-jellycat-19",
+        "client-samuel-wong-151-langtech-20",
+        "client-samuel-wong-151-p2-wireless-21",
+        "client-samuel-wong-151-stoneview-sg-22"
+      ]
+    },
+    {
+      "id": "manager-teflon-siu",
+      "legacyId": 14,
+      "engineerId": "engineer-teflon-siu",
+      "employeeIds": [
+        "engineer-unknown"
+      ],
+      "clientIds": [
+        "client-teflon-siu-151-pharo-1",
+        "client-teflon-siu-152-china-silver-2",
+        "client-teflon-siu-153-profile-wilson-grp-3",
+        "client-teflon-siu-154-native-union-4",
+        "client-teflon-siu-155-tradition-capital-5",
+        "client-teflon-siu-156-resolution-chambers-6",
+        "client-teflon-siu-157-white-cube-7",
+        "client-teflon-siu-158-conran-8",
+        "client-teflon-siu-158-made-partners-9",
+        "client-teflon-siu-158-audacy-10",
+        "client-teflon-siu-158-augventive-11",
+        "client-teflon-siu-158-design-pool-12",
+        "client-teflon-siu-158-glenor-cask-13"
+      ]
+    },
+    {
+      "id": "manager-alvin-wong",
+      "legacyId": 18,
+      "engineerId": "engineer-alvin-wong",
+      "employeeIds": [
+        "engineer-kelvin-hui"
+      ],
+      "clientIds": []
+    },
+    {
+      "id": "manager-harris-leong",
+      "legacyId": 22,
+      "engineerId": "engineer-harris-leong",
+      "employeeIds": [
+        "engineer-jacky-wong",
+        "engineer-john-wong"
+      ],
+      "clientIds": [
+        "client-harris-leong-159-cccl-1",
+        "client-harris-leong-160-connect-2",
+        "client-harris-leong-161-letters-thoo-3",
+        "client-harris-leong-161-r-lewis-sanders-4",
+        "client-harris-leong-161-austcham-5",
+        "client-harris-leong-161-destination-china-6",
+        "client-harris-leong-161-exellar-7",
+        "client-harris-leong-161-naga-8",
+        "client-harris-leong-161-sedona-9",
+        "client-harris-leong-161-obsidian-10",
+        "client-harris-leong-161-ttb-sg-11",
+        "client-harris-leong-161-ceratec-12",
+        "client-harris-leong-161-charlton-13",
+        "client-harris-leong-161-mother-s-choice-14",
+        "client-harris-leong-161-nexus-point-15",
+        "client-harris-leong-161-spca-16",
+        "client-harris-leong-161-true-fame-lpm-17",
+        "client-harris-leong-161-zuma-18",
+        "client-harris-leong-161-cathay-vest-19",
+        "client-harris-leong-161-horace-w-20",
+        "client-harris-leong-161-skyway-pacific-21"
+      ]
+    },
+    {
+      "id": "manager-casey-tang",
+      "legacyId": 26,
+      "engineerId": "engineer-casey-tang",
+      "employeeIds": [],
+      "clientIds": []
+    }
+  ],
+  "engineers": [
+    {
+      "id": "engineer-kay-yeung",
+      "legacyId": 2,
+      "name": "Kay Yeung",
+      "position": "IT Manager",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Kay Yeung.png",
+      "role": "Manager",
+      "managerId": "manager-kay-yeung",
+      "clientIds": [
+        "client-kay-yeung-102-h-properties-2",
+        "client-kay-yeung-103-triide-3",
+        "client-kay-yeung-104-limetree-4",
+        "client-kay-yeung-105-eal-5",
+        "client-kay-yeung-106-eip-6",
+        "client-kay-yeung-108-rockpool-8",
+        "client-kay-yeung-117-connect-16",
+        "client-kay-yeung-118-tta-17",
+        "client-kay-yeung-121-letters-thoo-20",
+        "client-kay-yeung-122-r-lewis-sanders-21",
+        "client-kay-yeung-128-naga-25",
+        "client-kay-yeung-133-caia-30",
+        "client-kay-yeung-135-destination-china-32",
+        "client-kay-yeung-136-sedona-33",
+        "client-kay-yeung-140-chin-teik-sg-36",
+        "client-kay-yeung-141-sphere-sg-37",
+        "client-kay-yeung-142-albarine-38",
+        "client-harris-leong-159-cccl-1",
+        "client-harris-leong-160-connect-2",
+        "client-harris-leong-161-letters-thoo-3",
+        "client-harris-leong-161-r-lewis-sanders-4",
+        "client-harris-leong-161-austcham-5",
+        "client-harris-leong-161-destination-china-6",
+        "client-harris-leong-161-exellar-7",
+        "client-harris-leong-161-naga-8",
+        "client-harris-leong-161-sedona-9"
+      ]
+    },
+    {
+      "id": "engineer-derek-lai",
+      "legacyId": 4,
+      "name": "Derek Lai",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Derek Lai.png",
+      "role": "Engineer",
+      "managerId": "manager-kay-yeung",
+      "sourceOrder": 0,
+      "clientIds": [
+        "client-kay-yeung-101-oval-1",
+        "client-kay-yeung-127-zaha-24"
+      ]
+    },
+    {
+      "id": "engineer-harold-sit",
+      "legacyId": 5,
+      "name": "Harold Sit",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Harold Sit.png",
+      "role": "Engineer",
+      "managerId": "manager-kay-yeung",
+      "sourceOrder": 1,
+      "clientIds": [
+        "client-kay-yeung-120-fidinam-19",
+        "client-kay-yeung-126-zaaba-23",
+        "client-kay-yeung-129-austcham-26"
+      ]
+    },
+    {
+      "id": "engineer-alvin-luk",
+      "legacyId": 6,
+      "name": "Alvin Luk",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Alvin Luk.png",
+      "role": "Engineer",
+      "managerId": "manager-kay-yeung",
+      "sourceOrder": 2,
+      "clientIds": [
+        "client-kay-yeung-107-perfectos-7",
+        "client-kay-yeung-112-funville-11",
+        "client-kay-yeung-130-grace-27",
+        "client-kay-yeung-131-cotton-on-28",
+        "client-kay-yeung-132-zhao-da-29",
+        "client-kay-yeung-134-pathos-31",
+        "client-kay-yeung-137-weichert-34",
+        "client-kay-yeung-143-broadsword-39",
+        "client-kay-yeung-144-exellar-40",
+        "client-kay-yeung-146-red-bull-42",
+        "client-harris-leong-161-exellar-7"
+      ]
+    },
+    {
+      "id": "engineer-justin-chung",
+      "legacyId": 7,
+      "name": "Justin Chung",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Justin Chung.png",
+      "role": "Engineer",
+      "managerId": "manager-kay-yeung",
+      "sourceOrder": 3,
+      "clientIds": [
+        "client-kay-yeung-109-npl-9",
+        "client-kay-yeung-111-apeiron-sg-10",
+        "client-kay-yeung-113-hauck-12",
+        "client-kay-yeung-115-aplma-14",
+        "client-kay-yeung-116-kyo-capital-15",
+        "client-kay-yeung-119-cccl-18",
+        "client-kay-yeung-124-signal-8-22",
+        "client-kay-yeung-145-options-41",
+        "client-kenneth-ip-145-long-corridor-9"
+      ]
+    },
+    {
+      "id": "engineer-victor-cheng",
+      "legacyId": 8,
+      "name": "Victor Cheng",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Victor Cheng.png",
+      "role": "Engineer",
+      "managerId": "manager-kay-yeung",
+      "sourceOrder": 4,
+      "clientIds": [
+        "client-kay-yeung-114-egis-13",
+        "client-kay-yeung-139-uib-sg-35"
+      ]
+    },
+    {
+      "id": "engineer-kenneth-ip",
+      "legacyId": 3,
+      "name": "Kenneth Ip",
+      "position": "Assistant IT Manager",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Kenneth Ip.png",
+      "role": "Manager",
+      "managerId": "manager-kenneth-ip",
+      "clientIds": [
+        "client-kenneth-ip-140-ninemasts-bct-1",
+        "client-kenneth-ip-141-bct-others-2",
+        "client-kenneth-ip-144-buddy-finance-4",
+        "client-kenneth-ip-145-kavod-5",
+        "client-kenneth-ip-145-aletheia-6",
+        "client-kenneth-ip-145-obsidian-7",
+        "client-kenneth-ip-145-lion-rock-8",
+        "client-harris-leong-161-destination-china-6",
+        "client-harris-leong-161-naga-8",
+        "client-harris-leong-161-sedona-9",
+        "client-harris-leong-161-obsidian-10",
+        "client-harris-leong-161-ttb-sg-11",
+        "client-harris-leong-161-spca-16"
+      ]
+    },
+    {
+      "id": "engineer-russell-wan",
+      "legacyId": 7,
+      "name": "Russell Wan",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Russell.png",
+      "role": "Engineer",
+      "managerId": "manager-kenneth-ip",
+      "sourceOrder": 0,
+      "clientIds": [
+        "client-kenneth-ip-143-ttb-sg-3"
+      ]
+    },
+    {
+      "id": "engineer-samuel-wong",
+      "legacyId": 4,
+      "name": "Samuel Wong",
+      "position": "Project Manager",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Samuel Wong.png",
+      "role": "Manager",
+      "managerId": "manager-samuel-wong",
+      "clientIds": [
+        "client-samuel-wong-147-spca-2",
+        "client-samuel-wong-150-nexus-point-4",
+        "client-samuel-wong-151-apeiron-5",
+        "client-samuel-wong-151-ceratec-6",
+        "client-samuel-wong-151-charlton-7",
+        "client-samuel-wong-151-endava-sg-8",
+        "client-samuel-wong-151-jinshi-9",
+        "client-samuel-wong-151-ovc-10",
+        "client-samuel-wong-151-true-fame-lpm-11",
+        "client-samuel-wong-151-zuma-12",
+        "client-samuel-wong-151-cathay-vest-13",
+        "client-samuel-wong-151-horace-w-14",
+        "client-samuel-wong-151-skyway-pacific-15",
+        "client-samuel-wong-151-arts-of-asia-16",
+        "client-samuel-wong-151-barker-17",
+        "client-samuel-wong-151-ccw-18",
+        "client-samuel-wong-151-jellycat-19",
+        "client-samuel-wong-151-langtech-20",
+        "client-samuel-wong-151-p2-wireless-21",
+        "client-samuel-wong-151-stoneview-sg-22",
+        "client-harris-leong-161-ceratec-12",
+        "client-harris-leong-161-charlton-13",
+        "client-harris-leong-161-mother-s-choice-14",
+        "client-harris-leong-161-nexus-point-15",
+        "client-harris-leong-161-spca-16",
+        "client-harris-leong-161-true-fame-lpm-17",
+        "client-harris-leong-161-zuma-18",
+        "client-harris-leong-161-cathay-vest-19",
+        "client-harris-leong-161-horace-w-20",
+        "client-harris-leong-161-skyway-pacific-21"
+      ]
+    },
+    {
+      "id": "engineer-tony-li",
+      "legacyId": 10,
+      "name": "Tony Li",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Tony Li.png",
+      "role": "Engineer",
+      "managerId": "manager-samuel-wong",
+      "sourceOrder": 0,
+      "clientIds": [
+        "client-samuel-wong-146-rugby-1",
+        "client-samuel-wong-151-ovc-10"
+      ]
+    },
+    {
+      "id": "engineer-kin-leung",
+      "legacyId": 11,
+      "name": "Kin Leung",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Kin Leung.png",
+      "role": "Engineer",
+      "managerId": "manager-samuel-wong",
+      "sourceOrder": 1,
+      "clientIds": [
+        "client-samuel-wong-147-spca-2"
+      ]
+    },
+    {
+      "id": "engineer-steve-wong",
+      "legacyId": 12,
+      "name": "Steve Wong",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Steve Wong.png",
+      "role": "Engineer",
+      "managerId": "manager-samuel-wong",
+      "sourceOrder": 2,
+      "clientIds": [
+        "client-samuel-wong-148-mother-s-choice-3",
+        "client-harris-leong-161-mother-s-choice-14"
+      ]
+    },
+    {
+      "id": "engineer-teflon-siu",
+      "legacyId": 14,
+      "name": "Teflon Siu",
+      "position": "Senior System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Teflon Siu.png",
+      "role": "Manager",
+      "managerId": "manager-teflon-siu",
+      "clientIds": [
+        "client-teflon-siu-151-pharo-1",
+        "client-teflon-siu-152-china-silver-2",
+        "client-teflon-siu-153-profile-wilson-grp-3",
+        "client-teflon-siu-154-native-union-4",
+        "client-teflon-siu-155-tradition-capital-5",
+        "client-teflon-siu-156-resolution-chambers-6",
+        "client-teflon-siu-157-white-cube-7",
+        "client-teflon-siu-158-conran-8",
+        "client-teflon-siu-158-made-partners-9",
+        "client-teflon-siu-158-audacy-10",
+        "client-teflon-siu-158-augventive-11",
+        "client-teflon-siu-158-design-pool-12",
+        "client-teflon-siu-158-glenor-cask-13"
+      ]
+    },
+    {
+      "id": "engineer-unknown",
+      "legacyId": 11,
+      "name": "",
+      "position": "",
+      "company": "FunctionEight",
+      "image": "",
+      "role": "Engineer",
+      "managerId": "manager-teflon-siu",
+      "sourceOrder": 0,
+      "clientIds": []
+    },
+    {
+      "id": "engineer-alvin-wong",
+      "legacyId": 18,
+      "name": "Alvin Wong",
+      "position": "Enterprise Architect",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Alvin Wong.png",
+      "role": "Manager",
+      "managerId": "manager-alvin-wong",
+      "clientIds": []
+    },
+    {
+      "id": "engineer-kelvin-hui",
+      "legacyId": 19,
+      "name": "Kelvin Hui",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Kelvin Hui.png",
+      "role": "Engineer",
+      "managerId": "manager-alvin-wong",
+      "sourceOrder": 0,
+      "clientIds": []
+    },
+    {
+      "id": "engineer-harris-leong",
+      "legacyId": 22,
+      "name": "Harris Leong",
+      "position": "Lead, Service Desk",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Harris Leong.png",
+      "role": "Manager",
+      "managerId": "manager-harris-leong",
+      "clientIds": [
+        "client-harris-leong-161-austcham-5"
+      ]
+    },
+    {
+      "id": "engineer-jacky-wong",
+      "legacyId": 23,
+      "name": "Jacky Wong",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Jacky Wong.png",
+      "role": "Engineer",
+      "managerId": "manager-harris-leong",
+      "sourceOrder": 0,
+      "clientIds": [
+        "client-harris-leong-159-cccl-1"
+      ]
+    },
+    {
+      "id": "engineer-john-wong",
+      "legacyId": 24,
+      "name": "John Wong",
+      "position": "System Engineer",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - John Wong.png",
+      "role": "Engineer",
+      "managerId": "manager-harris-leong",
+      "sourceOrder": 1,
+      "clientIds": [
+        "client-harris-leong-160-connect-2"
+      ]
+    },
+    {
+      "id": "engineer-casey-tang",
+      "legacyId": 26,
+      "name": "Casey Tang",
+      "position": "Sales Admin",
+      "company": "FunctionEight",
+      "image": "/avatars/HK - Casey Tang.png",
+      "role": "Manager",
+      "managerId": "manager-casey-tang",
+      "clientIds": []
+    }
+  ],
+  "clients": [
+    {
+      "id": "client-kay-yeung-101-oval-1",
+      "legacyId": 101,
+      "managerId": "manager-kay-yeung",
+      "name": "Oval",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-derek-lai"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-kay-yeung-102-h-properties-2",
+      "legacyId": 102,
+      "managerId": "manager-kay-yeung",
+      "name": "H Properties",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-kay-yeung-103-triide-3",
+      "legacyId": 103,
+      "managerId": "manager-kay-yeung",
+      "name": "Triide",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-kay-yeung-104-limetree-4",
+      "legacyId": 104,
+      "managerId": "manager-kay-yeung",
+      "name": "Limetree",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-kay-yeung-105-eal-5",
+      "legacyId": 105,
+      "managerId": "manager-kay-yeung",
+      "name": "EAL",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-kay-yeung-106-eip-6",
+      "legacyId": 106,
+      "managerId": "manager-kay-yeung",
+      "name": "EIP",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-kay-yeung-107-perfectos-7",
+      "legacyId": 107,
+      "managerId": "manager-kay-yeung",
+      "name": "Perfectos",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-kay-yeung-108-rockpool-8",
+      "legacyId": 108,
+      "managerId": "manager-kay-yeung",
+      "name": "Rockpool",
+      "type": "Recurring",
+      "hoursPurchased": "10 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "",
+      "fullCompanyName": "Rockpool Capital Limited"
+    },
+    {
+      "id": "client-kay-yeung-109-npl-9",
+      "legacyId": 109,
+      "managerId": "manager-kay-yeung",
+      "name": "NPL",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-kay-yeung-111-apeiron-sg-10",
+      "legacyId": 111,
+      "managerId": "manager-kay-yeung",
+      "name": "Apeiron (SG)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-kay-yeung-112-funville-11",
+      "legacyId": 112,
+      "managerId": "manager-kay-yeung",
+      "name": "Funville",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-kay-yeung-113-hauck-12",
+      "legacyId": 113,
+      "managerId": "manager-kay-yeung",
+      "name": "Hauck",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kay-yeung-114-egis-13",
+      "legacyId": 114,
+      "managerId": "manager-kay-yeung",
+      "name": "EGIS",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-victor-cheng"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-kay-yeung-115-aplma-14",
+      "legacyId": 115,
+      "managerId": "manager-kay-yeung",
+      "name": "APLMA",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kay-yeung-116-kyo-capital-15",
+      "legacyId": 116,
+      "managerId": "manager-kay-yeung",
+      "name": "KYO Capital",
+      "type": "Recurring",
+      "hoursPurchased": "Mixture of onsite and remote support - Up to 2 hours onsite per month - No carry-forward (accumulation) of monthly hours are allowed",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "KYO Capital Limited"
+    },
+    {
+      "id": "client-kay-yeung-117-connect-16",
+      "legacyId": 117,
+      "managerId": "manager-kay-yeung",
+      "name": "Connect",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kay-yeung-118-tta-17",
+      "legacyId": 118,
+      "managerId": "manager-kay-yeung",
+      "name": "TTA",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kay-yeung-119-cccl-18",
+      "legacyId": 119,
+      "managerId": "manager-kay-yeung",
+      "name": "CCCL",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-kay-yeung-120-fidinam-19",
+      "legacyId": 120,
+      "managerId": "manager-kay-yeung",
+      "name": "Fidinam",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-harold-sit"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kay-yeung-121-letters-thoo-20",
+      "legacyId": 121,
+      "managerId": "manager-kay-yeung",
+      "name": "Letters & Thoo",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kay-yeung-122-r-lewis-sanders-21",
+      "legacyId": 122,
+      "managerId": "manager-kay-yeung",
+      "name": "R. Lewis Sanders",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-kay-yeung-124-signal-8-22",
+      "legacyId": 124,
+      "managerId": "manager-kay-yeung",
+      "name": "Signal 8",
+      "type": "Recurring",
+      "hoursPurchased": "20 hours ONSITE Support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Signal 8 Security"
+    },
+    {
+      "id": "client-kay-yeung-126-zaaba-23",
+      "legacyId": 126,
+      "managerId": "manager-kay-yeung",
+      "name": "Zaaba",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-harold-sit"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kay-yeung-127-zaha-24",
+      "legacyId": 127,
+      "managerId": "manager-kay-yeung",
+      "name": "Zaha",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-derek-lai"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kay-yeung-128-naga-25",
+      "legacyId": 128,
+      "managerId": "manager-kay-yeung",
+      "name": "Naga",
+      "type": "Prepaid",
+      "hoursPurchased": "10 Hours support & Cybersecurity",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Naga Brands Limited"
+    },
+    {
+      "id": "client-kay-yeung-129-austcham-26",
+      "legacyId": 129,
+      "managerId": "manager-kay-yeung",
+      "name": "Austcham",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-harold-sit"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-kay-yeung-130-grace-27",
+      "legacyId": 130,
+      "managerId": "manager-kay-yeung",
+      "name": "Grace",
+      "type": "Prepaid",
+      "hoursPurchased": "20 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "NG Wing Chee Grace"
+    },
+    {
+      "id": "client-kay-yeung-131-cotton-on-28",
+      "legacyId": 131,
+      "managerId": "manager-kay-yeung",
+      "name": "Cotton on",
+      "type": "Prepaid",
+      "hoursPurchased": "20 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Cotton On Hong Kong Limited"
+    },
+    {
+      "id": "client-kay-yeung-132-zhao-da-29",
+      "legacyId": 132,
+      "managerId": "manager-kay-yeung",
+      "name": "Zhao Da",
+      "type": "Prepaid",
+      "hoursPurchased": "10 Hours - Mixture of Onsite & Remote Support - Min Onsite 1 Hour - Min Remote Support 15 Mins",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Zhao Da Global Ltd"
+    },
+    {
+      "id": "client-kay-yeung-133-caia-30",
+      "legacyId": 133,
+      "managerId": "manager-kay-yeung",
+      "name": "CAIA",
+      "type": "Prepaid",
+      "hoursPurchased": "20 Hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "CAIA Association Hong Kong Ltd"
+    },
+    {
+      "id": "client-kay-yeung-134-pathos-31",
+      "legacyId": 134,
+      "managerId": "manager-kay-yeung",
+      "name": "Pathos",
+      "type": "Prepaid",
+      "hoursPurchased": "10 hours - Mixture of onsite and remote support - Hours cover work in Hong Kong & Singapore",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Pathos Consultancy Limited"
+    },
+    {
+      "id": "client-kay-yeung-135-destination-china-32",
+      "legacyId": 135,
+      "managerId": "manager-kay-yeung",
+      "name": "Destination China",
+      "type": "Prepaid",
+      "hoursPurchased": "10 hours - Mixture of onsite and remote support (20% Discounted)",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Destination China Company Limited"
+    },
+    {
+      "id": "client-kay-yeung-136-sedona-33",
+      "legacyId": 136,
+      "managerId": "manager-kay-yeung",
+      "name": "Sedona",
+      "type": "Prepaid",
+      "hoursPurchased": "15 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Sedona Hong Kong Limited"
+    },
+    {
+      "id": "client-kay-yeung-137-weichert-34",
+      "legacyId": 137,
+      "managerId": "manager-kay-yeung",
+      "name": "Weichert",
+      "type": "Prepaid",
+      "hoursPurchased": "50 hours - Onsite support, Procurement, Laptop setups, IT related Customer projects",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Weichert Companies"
+    },
+    {
+      "id": "client-kay-yeung-139-uib-sg-35",
+      "legacyId": 139,
+      "managerId": "manager-kay-yeung",
+      "name": "UIB (SG)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-victor-cheng"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-kay-yeung-140-chin-teik-sg-36",
+      "legacyId": 140,
+      "managerId": "manager-kay-yeung",
+      "name": "Chin Teik (SG)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-kay-yeung-141-sphere-sg-37",
+      "legacyId": 141,
+      "managerId": "manager-kay-yeung",
+      "name": "Sphere (SG)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-kay-yeung-142-albarine-38",
+      "legacyId": 142,
+      "managerId": "manager-kay-yeung",
+      "name": "Albarine",
+      "type": "Prepaid",
+      "hoursPurchased": "20 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Albarine Limited"
+    },
+    {
+      "id": "client-kay-yeung-143-broadsword-39",
+      "legacyId": 143,
+      "managerId": "manager-kay-yeung",
+      "name": "Broadsword",
+      "type": "Prepaid",
+      "hoursPurchased": "20 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Broadsword Event House Asia Pacific Limited"
+    },
+    {
+      "id": "client-kay-yeung-144-exellar-40",
+      "legacyId": 144,
+      "managerId": "manager-kay-yeung",
+      "name": "Exellar",
+      "type": "Prepaid",
+      "hoursPurchased": "6 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Exellar Consulting Pte Ltd"
+    },
+    {
+      "id": "client-kay-yeung-145-options-41",
+      "legacyId": 145,
+      "managerId": "manager-kay-yeung",
+      "name": "Options",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-kay-yeung-146-red-bull-42",
+      "legacyId": 146,
+      "managerId": "manager-kay-yeung",
+      "name": "Red Bull",
+      "type": "Prepaid",
+      "hoursPurchased": "5 + 1 (c/f) hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-alvin-luk"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Red Bull Hong Kong Limited"
+    },
+    {
+      "id": "client-kenneth-ip-140-ninemasts-bct-1",
+      "legacyId": 140,
+      "managerId": "manager-kenneth-ip",
+      "name": "Ninemasts (BCT)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-kenneth-ip-141-bct-others-2",
+      "legacyId": 141,
+      "managerId": "manager-kenneth-ip",
+      "name": "BCT Others",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-kenneth-ip-143-ttb-sg-3",
+      "legacyId": 143,
+      "managerId": "manager-kenneth-ip",
+      "name": "TTB (SG)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-russell-wan"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kenneth-ip-144-buddy-finance-4",
+      "legacyId": 144,
+      "managerId": "manager-kenneth-ip",
+      "name": "Buddy Finance",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kenneth-ip-145-kavod-5",
+      "legacyId": 145,
+      "managerId": "manager-kenneth-ip",
+      "name": "Kavod",
+      "type": "Prepaid",
+      "hoursPurchased": "10 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Bondfull Inc Ltd"
+    },
+    {
+      "id": "client-kenneth-ip-145-aletheia-6",
+      "legacyId": 145,
+      "managerId": "manager-kenneth-ip",
+      "name": "Aletheia",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-kenneth-ip-145-obsidian-7",
+      "legacyId": 145,
+      "managerId": "manager-kenneth-ip",
+      "name": "Obsidian",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-kenneth-ip-145-lion-rock-8",
+      "legacyId": 145,
+      "managerId": "manager-kenneth-ip",
+      "name": "Lion Rock",
+      "type": "Prepaid",
+      "hoursPurchased": "20 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Lion Rock Construction Limited"
+    },
+    {
+      "id": "client-kenneth-ip-145-long-corridor-9",
+      "legacyId": 145,
+      "managerId": "manager-kenneth-ip",
+      "name": "Long Corridor",
+      "type": "Prepaid",
+      "hoursPurchased": "3 hours support - Coordination of issues or troubleshooting connected to IT and your services",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-justin-chung"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-samuel-wong-146-rugby-1",
+      "legacyId": 146,
+      "managerId": "manager-samuel-wong",
+      "name": "Rugby",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-tony-li"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-samuel-wong-147-spca-2",
+      "legacyId": 147,
+      "managerId": "manager-samuel-wong",
+      "name": "SPCA",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-kin-leung",
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-samuel-wong-148-mother-s-choice-3",
+      "legacyId": 148,
+      "managerId": "manager-samuel-wong",
+      "name": "Mother's Choice",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-steve-wong"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-samuel-wong-150-nexus-point-4",
+      "legacyId": 150,
+      "managerId": "manager-samuel-wong",
+      "name": "Nexus Point",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-samuel-wong-151-apeiron-5",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Apeiron",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-b"
+    },
+    {
+      "id": "client-samuel-wong-151-ceratec-6",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Ceratec",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-samuel-wong-151-charlton-7",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Charlton",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-samuel-wong-151-endava-sg-8",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Endava (SG)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-samuel-wong-151-jinshi-9",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Jinshi",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-samuel-wong-151-ovc-10",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "OVC",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-tony-li",
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-samuel-wong-151-true-fame-lpm-11",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "True Fame (LPM)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-a"
+    },
+    {
+      "id": "client-samuel-wong-151-zuma-12",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Zuma",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-samuel-wong-151-cathay-vest-13",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Cathay Vest",
+      "type": "Prepaid",
+      "hoursPurchased": "30 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "CathyVest Capital Management Limited"
+    },
+    {
+      "id": "client-samuel-wong-151-horace-w-14",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Horace W",
+      "type": "Prepaid",
+      "hoursPurchased": "50 hours",
+      "coreServices": [
+        "Service Desk",
+        "IT support and Management"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Horace Wong"
+    },
+    {
+      "id": "client-samuel-wong-151-skyway-pacific-15",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Skyway Pacific",
+      "type": "Prepaid",
+      "hoursPurchased": "20 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-samuel-wong-151-arts-of-asia-16",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Arts of Asia",
+      "type": "Prepaid",
+      "hoursPurchased": "10 hours - Remote support primarily, onsite only if needed",
+      "coreServices": [
+        "Service Desk",
+        "IT Support for Office 365 License"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Arts of Asia Publications Ltd"
+    },
+    {
+      "id": "client-samuel-wong-151-barker-17",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Barker",
+      "type": "Prepaid",
+      "hoursPurchased": "15 hours - Mixture of oniste & remote support",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Barker Partner"
+    },
+    {
+      "id": "client-samuel-wong-151-ccw-18",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "CCW",
+      "type": "Prepaid",
+      "hoursPurchased": "50 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "CCW Global Limited"
+    },
+    {
+      "id": "client-samuel-wong-151-jellycat-19",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Jellycat",
+      "type": "Prepaid",
+      "hoursPurchased": "50 hours support 1. Procurement support - Minimum deduction of 1.5 hours per user/issue raised. 2. Remote support - Minimum deduction of 1 hour(s) per issue raised 3. Consultation support - Minimum deduction of 1 hour(s) per issue raised 4. Digital support - Minimum deduction of 1 hour(s) per issue raised",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "JellyCat Ltd."
+    },
+    {
+      "id": "client-samuel-wong-151-langtech-20",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Langtech",
+      "type": "Prepaid",
+      "hoursPurchased": "10 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Langtech Limited"
+    },
+    {
+      "id": "client-samuel-wong-151-p2-wireless-21",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "P2 Wireless",
+      "type": "Prepaid",
+      "hoursPurchased": "5 Hours support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "P2 Wireless Technologies"
+    },
+    {
+      "id": "client-samuel-wong-151-stoneview-sg-22",
+      "legacyId": 151,
+      "managerId": "manager-samuel-wong",
+      "name": "Stoneview (SG)",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-teflon-siu-151-pharo-1",
+      "legacyId": 151,
+      "managerId": "manager-teflon-siu",
+      "name": "Pharo",
+      "type": "Recurring",
+      "hoursPurchased": "50 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-a",
+      "fullCompanyName": "Pharo Management (HK) Limited"
+    },
+    {
+      "id": "client-teflon-siu-152-china-silver-2",
+      "legacyId": 152,
+      "managerId": "manager-teflon-siu",
+      "name": "China Silver",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-teflon-siu-153-profile-wilson-grp-3",
+      "legacyId": 153,
+      "managerId": "manager-teflon-siu",
+      "name": "Profile (Wilson Grp)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-teflon-siu-154-native-union-4",
+      "legacyId": 154,
+      "managerId": "manager-teflon-siu",
+      "name": "Native Union",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-teflon-siu-155-tradition-capital-5",
+      "legacyId": 155,
+      "managerId": "manager-teflon-siu",
+      "name": "Tradition Capital",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-teflon-siu-156-resolution-chambers-6",
+      "legacyId": 156,
+      "managerId": "manager-teflon-siu",
+      "name": "Resolution Chambers",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-c"
+    },
+    {
+      "id": "client-teflon-siu-157-white-cube-7",
+      "legacyId": 157,
+      "managerId": "manager-teflon-siu",
+      "name": "White Cube",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-teflon-siu-158-conran-8",
+      "legacyId": 158,
+      "managerId": "manager-teflon-siu",
+      "name": "Conran",
+      "type": "Recurring",
+      "hoursPurchased": "10 hours - ONSITE Support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Conran & Partners (HK) Ltd"
+    },
+    {
+      "id": "client-teflon-siu-158-made-partners-9",
+      "legacyId": 158,
+      "managerId": "manager-teflon-siu",
+      "name": "Made Partners",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        ""
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d"
+    },
+    {
+      "id": "client-teflon-siu-158-audacy-10",
+      "legacyId": 158,
+      "managerId": "manager-teflon-siu",
+      "name": "Audacy",
+      "type": "Prepaid",
+      "hoursPurchased": "15 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Audacy Ventures"
+    },
+    {
+      "id": "client-teflon-siu-158-augventive-11",
+      "legacyId": 158,
+      "managerId": "manager-teflon-siu",
+      "name": "Augventive",
+      "type": "Prepaid",
+      "hoursPurchased": "15 Hours",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Augventive Limited"
+    },
+    {
+      "id": "client-teflon-siu-158-design-pool-12",
+      "legacyId": 158,
+      "managerId": "manager-teflon-siu",
+      "name": "Design Pool",
+      "type": "Prepaid",
+      "hoursPurchased": "30 Hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Design Pool Limited"
+    },
+    {
+      "id": "client-teflon-siu-158-glenor-cask-13",
+      "legacyId": 158,
+      "managerId": "manager-teflon-siu",
+      "name": "Glenor Cask",
+      "type": "Prepaid",
+      "hoursPurchased": "15 Hours - Mixture of Onsite & Remote Support",
+      "coreServices": [
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-teflon-siu"
+      ],
+      "tier": "tier-d",
+      "fullCompanyName": "Glenor Cask Company Limited"
+    },
+    {
+      "id": "client-harris-leong-159-cccl-1",
+      "legacyId": 159,
+      "managerId": "manager-harris-leong",
+      "name": "CCCL",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung",
+        "engineer-jacky-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-160-connect-2",
+      "legacyId": 160,
+      "managerId": "manager-harris-leong",
+      "name": "Connect",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung",
+        "engineer-john-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-letters-thoo-3",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Letters & Thoo",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-r-lewis-sanders-4",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "R. Lewis Sanders",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-austcham-5",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Austcham",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung",
+        "engineer-harris-leong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-destination-china-6",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Destination China",
+      "type": "Prepaid",
+      "hoursPurchased": "10 hours - Mixture of onsite and remote support (20% Discounted)",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung",
+        "engineer-kenneth-ip"
+      ],
+      "tier": "",
+      "fullCompanyName": "Destination China Company Limited"
+    },
+    {
+      "id": "client-harris-leong-161-exellar-7",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Exellar",
+      "type": "Prepaid",
+      "hoursPurchased": "6 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung",
+        "engineer-alvin-luk"
+      ],
+      "tier": "",
+      "fullCompanyName": "Exellar Consulting Pte Ltd"
+    },
+    {
+      "id": "client-harris-leong-161-naga-8",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Naga",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung",
+        "engineer-kenneth-ip"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-sedona-9",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Sedona",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kay-yeung",
+        "engineer-kenneth-ip"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-obsidian-10",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Obsidian",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-ttb-sg-11",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "TTB (SG)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-kenneth-ip"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-ceratec-12",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Ceratec",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-charlton-13",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Charlton",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-mother-s-choice-14",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Mother's Choice",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong",
+        "engineer-steve-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-nexus-point-15",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Nexus Point",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-spca-16",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "SPCA",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong",
+        "engineer-kenneth-ip"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-true-fame-lpm-17",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "True Fame (LPM)",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-zuma-18",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Zuma",
+      "type": "Recurring",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-cathay-vest-19",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Cathay Vest",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-horace-w-20",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Horace W",
+      "type": "Prepaid",
+      "hoursPurchased": "",
+      "coreServices": [
+        "Service Desk"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    },
+    {
+      "id": "client-harris-leong-161-skyway-pacific-21",
+      "legacyId": 161,
+      "managerId": "manager-harris-leong",
+      "name": "Skyway Pacific",
+      "type": "Prepaid",
+      "hoursPurchased": "20 hours - Mixture of onsite and remote support",
+      "coreServices": [
+        "Service Desk",
+        "Standard IT Support"
+      ],
+      "engineeringTeamIds": [
+        "engineer-samuel-wong"
+      ],
+      "tier": ""
+    }
+  ]
+}

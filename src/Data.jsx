@@ -312,9 +312,10 @@ export const organizationData = {
         {
           id: 135,
           name: 'Destination China',
+          fullCompanyName: 'Destination China Company Limited',
           type: 'Prepaid',
-          hoursPurchased: '',
-          coreServices: ['Service Desk'],
+          hoursPurchased: '10 hours - Mixture of onsite and remote support (20% Discounted)',
+          coreServices: ['Service Desk', 'Standard IT Support'],
           engineeringTeam: ['Kay Yeung'],
           tier: 'tier-d',
         },
