@@ -7,7 +7,7 @@ const createMapById = (items) => new Map(items.map((item) => [item.id, item]));
 
 const hydrateClient = (client, engineersById) => ({
   ...client,
-  managerIds: client.managerIds ?? [client.managerId].filter(Boolean),
+  managerIds: client.managerIds.filter(Boolean),
   engineeringTeam: client.engineeringTeamIds
     .map((engineerId) => engineersById.get(engineerId)?.name)
     .filter(Boolean),

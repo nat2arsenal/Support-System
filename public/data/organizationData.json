@@ -192,7 +192,7 @@
   "engineers": [
     {
       "id": "engineer-kay-yeung",
-      "legacyId": 2,
+      "legacyId": 1,
       "name": "Kay Yeung",
       "position": "IT Manager",
       "company": "FunctionEight",
@@ -224,7 +224,7 @@
     },
     {
       "id": "engineer-derek-lai",
-      "legacyId": 4,
+      "legacyId": 2,
       "name": "Derek Lai",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -239,7 +239,7 @@
     },
     {
       "id": "engineer-harold-sit",
-      "legacyId": 5,
+      "legacyId": 3,
       "name": "Harold Sit",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -255,7 +255,7 @@
     },
     {
       "id": "engineer-alvin-luk",
-      "legacyId": 6,
+      "legacyId": 4,
       "name": "Alvin Luk",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -278,7 +278,7 @@
     },
     {
       "id": "engineer-justin-chung",
-      "legacyId": 7,
+      "legacyId": 5,
       "name": "Justin Chung",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -300,7 +300,7 @@
     },
     {
       "id": "engineer-victor-cheng",
-      "legacyId": 8,
+      "legacyId": 6,
       "name": "Victor Cheng",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -315,7 +315,7 @@
     },
     {
       "id": "engineer-kenneth-ip",
-      "legacyId": 3,
+      "legacyId": 7,
       "name": "Kenneth Ip",
       "position": "Assistant IT Manager",
       "company": "FunctionEight",
@@ -339,7 +339,7 @@
     },
     {
       "id": "engineer-russell-wan",
-      "legacyId": 7,
+      "legacyId": 8,
       "name": "Russell Wan",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -353,7 +353,7 @@
     },
     {
       "id": "engineer-samuel-wong",
-      "legacyId": 4,
+      "legacyId": 9,
       "name": "Samuel Wong",
       "position": "Project Manager",
       "company": "FunctionEight",
@@ -429,7 +429,7 @@
     },
     {
       "id": "engineer-teflon-siu",
-      "legacyId": 14,
+      "legacyId": 13,
       "name": "Teflon Siu",
       "position": "Senior System Engineer",
       "company": "FunctionEight",
@@ -454,7 +454,7 @@
     },
     {
       "id": "engineer-unknown",
-      "legacyId": 11,
+      "legacyId": 14,
       "name": "",
       "position": "",
       "company": "FunctionEight",
@@ -466,7 +466,7 @@
     },
     {
       "id": "engineer-alvin-wong",
-      "legacyId": 18,
+      "legacyId": 15,
       "name": "Alvin Wong",
       "position": "Enterprise Architect",
       "company": "FunctionEight",
@@ -477,7 +477,7 @@
     },
     {
       "id": "engineer-kelvin-hui",
-      "legacyId": 19,
+      "legacyId": 16,
       "name": "Kelvin Hui",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -489,7 +489,7 @@
     },
     {
       "id": "engineer-harris-leong",
-      "legacyId": 22,
+      "legacyId": 17,
       "name": "Harris Leong",
       "position": "Lead, Service Desk",
       "company": "FunctionEight",
@@ -502,7 +502,7 @@
     },
     {
       "id": "engineer-jacky-wong",
-      "legacyId": 23,
+      "legacyId": 18,
       "name": "Jacky Wong",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -516,7 +516,7 @@
     },
     {
       "id": "engineer-john-wong",
-      "legacyId": 24,
+      "legacyId": 19,
       "name": "John Wong",
       "position": "System Engineer",
       "company": "FunctionEight",
@@ -530,7 +530,7 @@
     },
     {
       "id": "engineer-casey-tang",
-      "legacyId": 26,
+      "legacyId": 20,
       "name": "Casey Tang",
       "position": "Sales Admin",
       "company": "FunctionEight",
@@ -543,8 +543,7 @@
   "clients": [
     {
       "id": "client-kay-yeung-101-oval-1",
-      "legacyId": 101,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1001,
       "name": "Oval",
       "type": "Recurring",
       "hoursPurchased": "Onsite IT Support for Hong Kong Office:\nMonday 09:30-12:30 & 14:30-17:30\nTuesday 10:00-13:00\nWednesday 10:00-12:00 & 14:00-16:00\nThursday 10:00-12:00 & 14:00-16:00\nFriday 10:00-13:00\nMonthly IT Report\nRemote IT Support to Hong Kong Office including Shanghai and Huizhou saellite offices\nRemote IT Support to Beijing Office\nSynology NAS Offsite Backup\nPhysical hardware hosting for a 6-bay Synology NAS for offsite backup\nIncremental backup from Oval office fileserver every night\nOval UK office support\n- Unlimited Desktop support for users with an average response time of ~ 15 minutes\n- Coverage for up to 5 users and handled by the F8 Helpdesk team (English as a support language)\n- The remote support will be available during Monday-Friday 09.00-18.00 (UK time)\n- Remote checking of backup\n- Onsite support, if required, will be quoted and billed separately",
@@ -562,8 +561,7 @@
     },
     {
       "id": "client-kay-yeung-102-h-properties-2",
-      "legacyId": 102,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1002,
       "name": "H Properties",
       "type": "Recurring",
       "hoursPurchased": "1. Onsite Support\n- 20 hours onsite service per week\n- No carry-forward (accumulation) of monthly onsite hours are allowed\n- Onsite locations:\n- Headquarters\n- Infinitus Plaza\n- Lee Kum Kee Central\n- Nam Hing Fong\n2. Remote Support\n- Unlimited remote hours\n3. Infrastructure support\n- Unlimited infrastructure management hours\n\nSupporting hours: 9am to 6pm Mon to Fri, excluding public holidays",
@@ -581,8 +579,7 @@
     },
     {
       "id": "client-kay-yeung-103-triide-3",
-      "legacyId": 103,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1003,
       "name": "Triide Holding Limited",
       "type": "Recurring",
       "hoursPurchased": "- Unlimited remote IT support up to 100 users (fair use)\n- Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\nMonthly IT Infrastructure Management\n- Microsoft 365 single tenant (up to 500 users)\n- PRTG Network Monitoring (up to 20 infrastructure devices)\n- Up to 6 hours of manual infrastructure & cybersecurity monitoring per month",
@@ -600,8 +597,7 @@
     },
     {
       "id": "client-kay-yeung-104-limetree-4",
-      "legacyId": 104,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1004,
       "name": "Limetree",
       "type": "Recurring",
       "hoursPurchased": "Mixture of Onsite & Remote Support - 32 hours per month\nTWO 4-hour onsite every week\nBILL IN ADVANCE",
@@ -619,8 +615,7 @@
     },
     {
       "id": "client-kay-yeung-105-eal-5",
-      "legacyId": 105,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1005,
       "name": "EAL",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -637,8 +632,7 @@
     },
     {
       "id": "client-kay-yeung-106-eip-6",
-      "legacyId": 106,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1006,
       "name": "EIP",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -655,8 +649,7 @@
     },
     {
       "id": "client-kay-yeung-107-perfectos-7",
-      "legacyId": 107,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1007,
       "name": "Perfectos",
       "type": "Recurring",
       "hoursPurchased": "- IT infrastructure management including Cybersecurity, Backup\n- IT user support up to 20 Users\n- Up to 10 hours onsite/remote desktop task\n- Support Hours: Mon-Fri 9am to 6pm (HKT, excluding Hong Kong Public Holidays)\nMonthly Microsoft Azure Virtual Server subscriptions\n- Three VMs (AD, FS and LM4)\n- CPU, RAM, HDD resources\nAdditional monthly subscription for the Azure VMs\n- Azure Backup of all servers\n- Crowdstrike anti-virus protection for servers",
@@ -674,8 +667,7 @@
     },
     {
       "id": "client-kay-yeung-108-rockpool-8",
-      "legacyId": 108,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1008,
       "name": "Rockpool Capital Limited",
       "type": "Recurring",
       "hoursPurchased": "Up to 20 Users\nUp to 6 Hours Onsite / Remote support (no carry over)\nBILL IN ADVANCE",
@@ -694,8 +686,7 @@
     },
     {
       "id": "client-kay-yeung-109-npl-9",
-      "legacyId": 109,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1009,
       "name": "NPL",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -712,8 +703,7 @@
     },
     {
       "id": "client-kay-yeung-111-apeiron-sg-10",
-      "legacyId": 111,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1010,
       "name": "Apeiron (SG)",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -730,8 +720,7 @@
     },
     {
       "id": "client-kay-yeung-112-funville-11",
-      "legacyId": 112,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1011,
       "name": "Funville",
       "type": "Recurring",
       "hoursPurchased": "- IT Support (12hrs/month)\nRemote Maintenance Management Fee\n- Remote Maintenance Desktop / Laptop x 36\n- Remote Server Maintenance x 2",
@@ -749,8 +738,7 @@
     },
     {
       "id": "client-kay-yeung-113-hauck-12",
-      "legacyId": 113,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1012,
       "name": "Hauck",
       "type": "Recurring",
       "hoursPurchased": "1. Onsite Support from Monday-Friday (9am to 6pm HKT)\n- Hong Kong Public Holidays are excluded\n2. Remote monitoring and management of IT infrastructure\n\nBILL IN ADVANCE",
@@ -768,8 +756,7 @@
     },
     {
       "id": "client-kay-yeung-114-egis-13",
-      "legacyId": 114,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1013,
       "name": "EGIS",
       "type": "Recurring",
       "hoursPurchased": "- 2 full days onsite IT support per week",
@@ -787,8 +774,7 @@
     },
     {
       "id": "client-kay-yeung-115-aplma-14",
-      "legacyId": 115,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1014,
       "name": "APLMA",
       "type": "Recurring",
       "hoursPurchased": "- 24x5 IT Support\n- Up to 8 hours monthly support (consultancy, onsite and remote)\n- Infrastructure Management, Cloud Management\n- Cybersecurity Management\n- End user support\n- Remote Quarterly Management Meeting\nSupport hours from Monday to Friday 09:00-18:00 exclude Public Holidays\n*Bill separate invoice with Website Maintenance",
@@ -806,8 +792,7 @@
     },
     {
       "id": "client-kay-yeung-116-kyo-capital-15",
-      "legacyId": 116,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1015,
       "name": "KYO Capital",
       "type": "Recurring",
       "hoursPurchased": "Mixture of onsite and remote support\n- Up to 2 hours onsite per month\nNo carry-forward (accumulation) of monthly hours are allowed",
@@ -825,8 +810,7 @@
     },
     {
       "id": "client-harris-leong-160-connect-2",
-      "legacyId": 160,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1016,
       "name": "Connect",
       "type": "Recurring",
       "hoursPurchased": "Unlimited Remote support for up to 15 users\n- Handled by our F8 Helpdesk team\n- Mon-Fri 09:00-18:00\n- Fair-use policy\nOnsite support\n- Up to 2 Hours per week",
@@ -851,8 +835,7 @@
     },
     {
       "id": "client-kay-yeung-118-tta-17",
-      "legacyId": 118,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1017,
       "name": "TTA",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -869,8 +852,7 @@
     },
     {
       "id": "client-harris-leong-159-cccl-1",
-      "legacyId": 159,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1018,
       "name": "CCCL",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -894,8 +876,7 @@
     },
     {
       "id": "client-kay-yeung-120-fidinam-19",
-      "legacyId": 120,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1019,
       "name": "Fidinam",
       "type": "Recurring",
       "hoursPurchased": "- Up to 7 hours onsite services per month\n- Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\n*Bill separate invoice with Website Maintenance",
@@ -913,8 +894,7 @@
     },
     {
       "id": "client-harris-leong-161-letters-thoo-3",
-      "legacyId": 161,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1020,
       "name": "Letters & Thoo",
       "type": "Recurring",
       "hoursPurchased": "- 4 hours Onsite Support Per Month\n- Unlimited Remote Support for <10 users (Mon-Fri, 9am-6pm)",
@@ -937,8 +917,7 @@
     },
     {
       "id": "client-kay-yeung-122-r-lewis-sanders-21",
-      "legacyId": 122,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1021,
       "name": "R. Lewis Sanders",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -960,8 +939,7 @@
     },
     {
       "id": "client-kay-yeung-124-signal-8-22",
-      "legacyId": 124,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1022,
       "name": "Signal 8 Security",
       "type": "Recurring",
       "hoursPurchased": "- Unlimited Remote IT Support (8 users)\n*Bill separate invoice with Website Maintenance",
@@ -980,8 +958,7 @@
     },
     {
       "id": "client-kay-yeung-126-zaaba-23",
-      "legacyId": 126,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1023,
       "name": "Zaaba Capital Limited",
       "type": "Recurring",
       "hoursPurchased": "10 hours per month - Mixture of onsite and remote\n\nMonthly Backup Hosting\nDR data hosting\nMonthly Backup, monitoring and maintenance",
@@ -998,8 +975,7 @@
     },
     {
       "id": "client-kay-yeung-127-zaha-24",
-      "legacyId": 127,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1024,
       "name": "Zaha",
       "type": "Recurring",
       "hoursPurchased": "- IT Support Mixture of Onsite and Remote (12hrs/month)",
@@ -1017,8 +993,7 @@
     },
     {
       "id": "client-kay-yeung-128-naga-25",
-      "legacyId": 128,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1025,
       "name": "Naga",
       "type": "Prepaid",
       "hoursPurchased": "10 Hours support & Cybersecurity",
@@ -1043,8 +1018,7 @@
     },
     {
       "id": "client-kay-yeung-129-austcham-26",
-      "legacyId": 129,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1026,
       "name": "Austcham",
       "type": "Prepaid",
       "hoursPurchased": "",
@@ -1068,8 +1042,7 @@
     },
     {
       "id": "client-kay-yeung-130-grace-27",
-      "legacyId": 130,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1027,
       "name": "Grace",
       "type": "Prepaid",
       "hoursPurchased": "20 hours - Mixture of onsite and remote support",
@@ -1087,8 +1060,7 @@
     },
     {
       "id": "client-kay-yeung-131-cotton-on-28",
-      "legacyId": 131,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1028,
       "name": "Cotton on",
       "type": "Prepaid",
       "hoursPurchased": "20 hours - Mixture of onsite and remote support",
@@ -1106,8 +1078,7 @@
     },
     {
       "id": "client-kay-yeung-132-zhao-da-29",
-      "legacyId": 132,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1029,
       "name": "Zhao Da",
       "type": "Prepaid",
       "hoursPurchased": "10 Hours - Mixture of Onsite & Remote Support - Min Onsite 1 Hour - Min Remote Support 15 Mins",
@@ -1125,8 +1096,7 @@
     },
     {
       "id": "client-kay-yeung-133-caia-30",
-      "legacyId": 133,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1030,
       "name": "CAIA",
       "type": "Prepaid",
       "hoursPurchased": "20 Hours - Mixture of onsite and remote support",
@@ -1145,8 +1115,7 @@
     },
     {
       "id": "client-kay-yeung-134-pathos-31",
-      "legacyId": 134,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1031,
       "name": "Pathos",
       "type": "Prepaid",
       "hoursPurchased": "10 hours - Mixture of onsite and remote support - Hours cover work in Hong Kong & Singapore",
@@ -1164,8 +1133,7 @@
     },
     {
       "id": "client-kay-yeung-135-destination-china-32",
-      "legacyId": 135,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1032,
       "name": "Destination China",
       "type": "Prepaid",
       "hoursPurchased": "10 hours - Mixture of onsite and remote support (20% Discounted)",
@@ -1190,8 +1158,7 @@
     },
     {
       "id": "client-kay-yeung-136-sedona-33",
-      "legacyId": 136,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1033,
       "name": "Sedona",
       "type": "Prepaid",
       "hoursPurchased": "15 hours - Mixture of onsite and remote support",
@@ -1216,8 +1183,7 @@
     },
     {
       "id": "client-kay-yeung-137-weichert-34",
-      "legacyId": 137,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1034,
       "name": "Weichert",
       "type": "Prepaid",
       "hoursPurchased": "50 hours - Onsite support, Procurement, Laptop setups, IT related Customer projects",
@@ -1235,8 +1201,7 @@
     },
     {
       "id": "client-kay-yeung-139-uib-sg-35",
-      "legacyId": 139,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1035,
       "name": "UIB (SG)",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -1253,8 +1218,7 @@
     },
     {
       "id": "client-kay-yeung-140-chin-teik-sg-36",
-      "legacyId": 140,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1036,
       "name": "Chin Teik (SG)",
       "type": "Recurring",
       "hoursPurchased": "Remote support",
@@ -1273,8 +1237,7 @@
     },
     {
       "id": "client-kay-yeung-141-sphere-sg-37",
-      "legacyId": 141,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1037,
       "name": "Sphere (SG)",
       "type": "Recurring",
       "hoursPurchased": "- Up to 20 hours of IT Service per month\n1. Remote support\n- Minimum deduction of 0.25 hour per issue raised\n2. Onsite support\n- Minimum deduction of 2 hours per issue raised\n3. Consultation support\n- Minimum deduction of 0.5 hour(s) per issue raised\n4. Digital support\n- Minimum deduction of 0.5 hour(s) per issue raised\n5. Procurement support\n- Minimum deduction of 0.25 hour per issue raised\n6. Word Press Maintenance\n- Monthly deduction of 2 hours WordPress Maintenance for:\nspherestate.com, csc-partners.co\n7. IT Security Monitoring\n- Monthly deduction of 1 hour for IT Security Monitoring\nSupport Hours: Mon-Fri 9am to 6pm (HKT)\nPublic Holidays (Hong Kong calendar) excluded\nNo carry-forward (accumulation) of monthly hours are allowed",
@@ -1292,8 +1255,7 @@
     },
     {
       "id": "client-kay-yeung-142-albarine-38",
-      "legacyId": 142,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1038,
       "name": "Albarine",
       "type": "Prepaid",
       "hoursPurchased": "20 hours - Mixture of onsite and remote support",
@@ -1311,8 +1273,7 @@
     },
     {
       "id": "client-kay-yeung-143-broadsword-39",
-      "legacyId": 143,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1039,
       "name": "Broadsword",
       "type": "Prepaid",
       "hoursPurchased": "20 hours - Mixture of onsite and remote support",
@@ -1330,8 +1291,7 @@
     },
     {
       "id": "client-harris-leong-161-exellar-7",
-      "legacyId": 161,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1040,
       "name": "Exellar",
       "type": "Prepaid",
       "hoursPurchased": "6 hours - Mixture of onsite and remote support",
@@ -1356,8 +1316,7 @@
     },
     {
       "id": "client-kay-yeung-145-options-41",
-      "legacyId": 145,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1041,
       "name": "Options",
       "type": "Prepaid",
       "hoursPurchased": "",
@@ -1374,8 +1333,7 @@
     },
     {
       "id": "client-kay-yeung-146-red-bull-42",
-      "legacyId": 146,
-      "managerId": "manager-kay-yeung",
+      "legacyId": 1042,
       "name": "Red Bull",
       "type": "Prepaid",
       "hoursPurchased": "5 + 1 (c/f) hours - Mixture of onsite and remote support",
@@ -1393,8 +1351,7 @@
     },
     {
       "id": "client-kenneth-ip-140-ninemasts-bct-1",
-      "legacyId": 140,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1043,
       "name": "Ninemasts (BCT)",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -1411,8 +1368,7 @@
     },
     {
       "id": "client-kenneth-ip-141-bct-others-2",
-      "legacyId": 141,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1044,
       "name": "BCT Others",
       "type": "Prepaid",
       "hoursPurchased": "",
@@ -1429,8 +1385,7 @@
     },
     {
       "id": "client-kenneth-ip-143-ttb-sg-3",
-      "legacyId": 143,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1045,
       "name": "TTB (SG)",
       "type": "Recurring",
       "hoursPurchased": "- 24x5 IT Support (Monday to Friday 0900 HK Time to 1800 UK Time)\n- Up to 8 hours monthly support (consultancy, onsite and remote)\n- Infrastructure Management, Cloud Management\n- Cybersecurity Management\n- End user support\n- Quarterly Management meeting\n------------------------------------------------------------------------------------------\nMicrosoft Azure Subscription\n- Azure Virtual Server AD (B2ms)\n- Azure Virtual Server Fileserver (B4ms)\n- Azure Backup\n- Backup to F8 SG Azure Infrastructure",
@@ -1455,8 +1410,7 @@
     },
     {
       "id": "client-kenneth-ip-144-buddy-finance-4",
-      "legacyId": 144,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1046,
       "name": "Buddy Finance",
       "type": "Recurring",
       "hoursPurchased": "Up to 8 Hours per month - Mixture of onsite and remote\nCorporate Website Management (WIX)\nDomain and DNS Management\n-----------------------------------------------------------------------------------------\nSFTP Server Hosting\n15G Storage / 4 Users Accounts / Unlimited End User Device License",
@@ -1474,8 +1428,7 @@
     },
     {
       "id": "client-kenneth-ip-145-kavod-5",
-      "legacyId": 145,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1047,
       "name": "Kavod",
       "type": "Prepaid",
       "hoursPurchased": "10 hours - Mixture of onsite and remote support",
@@ -1493,8 +1446,7 @@
     },
     {
       "id": "client-kenneth-ip-145-aletheia-6",
-      "legacyId": 145,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1048,
       "name": "Aletheia",
       "type": "Recurring",
       "hoursPurchased": "Business Hours Support Service\n Up to 6 hours per month\n - 4 hours response time\nBILL IN ADVANCE",
@@ -1512,8 +1464,7 @@
     },
     {
       "id": "client-kenneth-ip-145-obsidian-7",
-      "legacyId": 145,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1049,
       "name": "Obsidian",
       "type": "Recurring",
       "hoursPurchased": "- Pause regular onsite visits, remain available for urgent onsite needs.\n- All other support provided remotely.\n- Monday to Friday 9am to 6pm Hong Kong Time (excluding Hong Kong Public Holidays)\nRemark: This is a special arrangement extended to Obsidian to provide support during a transitional",
@@ -1537,8 +1488,7 @@
     },
     {
       "id": "client-kenneth-ip-145-lion-rock-8",
-      "legacyId": 145,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1050,
       "name": "Lion Rock",
       "type": "Prepaid",
       "hoursPurchased": "20 hours - Mixture of onsite and remote support",
@@ -1556,8 +1506,7 @@
     },
     {
       "id": "client-kenneth-ip-145-long-corridor-9",
-      "legacyId": 145,
-      "managerId": "manager-kenneth-ip",
+      "legacyId": 1051,
       "name": "Long Corridor",
       "type": "Prepaid",
       "hoursPurchased": "3 hours support - Coordination of issues or troubleshooting connected to IT and your services",
@@ -1574,8 +1523,7 @@
     },
     {
       "id": "client-samuel-wong-146-rugby-1",
-      "legacyId": 146,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1052,
       "name": "Rugby",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -1592,8 +1540,7 @@
     },
     {
       "id": "client-samuel-wong-147-spca-2",
-      "legacyId": 147,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1053,
       "name": "SPCA Hong Kong",
       "type": "Recurring",
       "hoursPurchased": "1. Onsite Support\nWanchai : Mondays to Fridays (8:45am to 6:00pm HKT)\n- Hong Kong Public Holidays are excluded\n- Additional hours will be charged according to Appendix A\n8 Man days per month for different office\n- Mondays to Fridays (8:45am to 6:00pm HKT, exclude HK Public Holidays)\n- Non-office hours onsite will be counted in a multiple of 2\n2. Remote Support\n- 24x7 remote support outside the onsite support hours\n- Onsite visit to support will be charged according to Appendix A",
@@ -1618,8 +1565,7 @@
     },
     {
       "id": "client-harris-leong-161-mother-s-choice-14",
-      "legacyId": 161,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1054,
       "name": "Mother's Choice",
       "type": "Recurring",
       "hoursPurchased": "1. Onsite support\n- Up to 16 hours per month during weekday office hour (9am to 6pm, exclude HK Public Holidays)\n- No hours can be carried forward to next month\n2. Remote support\n- Unlimited remote support during office hours\n3. Infrastructure support\n- Remote monitoring and management of the IT infrastructure\n\n--------------------------------------------------------------\n\n- Azure B4Ms Server for domain controller\n- Azure Backup\n- Crowdstrike protection",
@@ -1644,8 +1590,7 @@
     },
     {
       "id": "client-harris-leong-161-nexus-point-15",
-      "legacyId": 161,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1055,
       "name": "Nexus Point",
       "type": "Recurring",
       "hoursPurchased": "- Unlimited remote hours\n- Unlimited infrastructure management hours\n- Up to 25 users\n- Up to 12 hours onsite service per month\nSupport Hours: From Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\nNo hours can be carried forward to next month",
@@ -1669,8 +1614,7 @@
     },
     {
       "id": "client-samuel-wong-151-apeiron-5",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1056,
       "name": "Apeiron",
       "type": "Recurring",
       "hoursPurchased": "- Unlimited Remote Support up to 40 users per month\n- Onsite Support up to 6 hours per month for HK\n- Onsite Support up to 3 hours per month for Singapore\n- Consultation Support up to 2 hours per month for HK & Singapore\n- IT Security Monitoring with report.\n- Support hours from Monday to Friday 09:00-18:00",
@@ -1688,8 +1632,7 @@
     },
     {
       "id": "client-samuel-wong-151-ceratec-6",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1057,
       "name": "Ceratec",
       "type": "Recurring",
       "hoursPurchased": "Unlimited Remote Support\nHong Kong Office - 12 users\nBILL IN ADVANCE",
@@ -1713,8 +1656,7 @@
     },
     {
       "id": "client-samuel-wong-151-charlton-7",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1058,
       "name": "Charlton",
       "type": "Recurring",
       "hoursPurchased": "- 1 hour per month (Mixture of onsite and remote)",
@@ -1738,8 +1680,7 @@
     },
     {
       "id": "client-samuel-wong-151-endava-sg-8",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1059,
       "name": "Endava (UK)",
       "type": "Recurring",
       "hoursPurchased": "IT Support (8 days per month) - Onsite\nClient: Alexander Mann Solutions (SH)\nProject Code: AMSSHS001",
@@ -1757,8 +1698,7 @@
     },
     {
       "id": "client-samuel-wong-151-jinshi-9",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1060,
       "name": "Jinshi",
       "type": "Recurring",
       "hoursPurchased": "1. Onsite / Remote Support\n2. Infrastructure support\nSupporting hours: 9am to 6pm Mon to Fri, excluding public holidays",
@@ -1776,8 +1716,7 @@
     },
     {
       "id": "client-samuel-wong-151-ovc-10",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1061,
       "name": "OVC Services Limited",
       "type": "Recurring",
       "hoursPurchased": "15 hours IT Support (onsite/remote) Services\n- Services Hours: 9am to 6pm Mon to Fri, excluding public holidays\n- Maximum 2 hours can be carried forward to next month",
@@ -1796,8 +1735,7 @@
     },
     {
       "id": "client-samuel-wong-151-true-fame-lpm-11",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1062,
       "name": "True Fame (LPM)",
       "type": "Recurring",
       "hoursPurchased": "1. Onsite Support\n- Up to 3 hours per month\n2. Remote Support\n- Up to 15 calls per month\nSupport Hours: From Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\nNo carry-forward (accumulation) of monthly hours are allowed",
@@ -1821,8 +1759,7 @@
     },
     {
       "id": "client-samuel-wong-151-zuma-12",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1063,
       "name": "Zuma",
       "type": "Recurring",
       "hoursPurchased": "1. Onsite IT Support\n- Up to 4 hours per month\n2. Remote Support\n- Unlimited remote support during office hours\nOffice Hours: Monday to Friday 9am to 6pm HKT (excluding Hong Kong Public Holidays)\nNo hours can be carried forward to next month",
@@ -1846,8 +1783,7 @@
     },
     {
       "id": "client-samuel-wong-151-cathay-vest-13",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1064,
       "name": "Cathay Vest",
       "type": "Prepaid",
       "hoursPurchased": "30 hours - Mixture of onsite and remote support",
@@ -1871,8 +1807,7 @@
     },
     {
       "id": "client-samuel-wong-151-horace-w-14",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1065,
       "name": "Horace W",
       "type": "Prepaid",
       "hoursPurchased": "50 hours",
@@ -1896,8 +1831,7 @@
     },
     {
       "id": "client-samuel-wong-151-skyway-pacific-15",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1066,
       "name": "Skyway Pacific",
       "type": "Prepaid",
       "hoursPurchased": "20 hours - Mixture of onsite and remote support",
@@ -1920,8 +1854,7 @@
     },
     {
       "id": "client-samuel-wong-151-arts-of-asia-16",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1067,
       "name": "Arts of Asia",
       "type": "Prepaid",
       "hoursPurchased": "10 hours - Remote support primarily, onsite only if needed",
@@ -1940,8 +1873,7 @@
     },
     {
       "id": "client-samuel-wong-151-barker-17",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1068,
       "name": "Barker",
       "type": "Prepaid",
       "hoursPurchased": "15 hours - Mixture of oniste & remote support",
@@ -1960,8 +1892,7 @@
     },
     {
       "id": "client-samuel-wong-151-ccw-18",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1069,
       "name": "CCW",
       "type": "Prepaid",
       "hoursPurchased": "50 hours - Mixture of onsite and remote support",
@@ -1979,8 +1910,7 @@
     },
     {
       "id": "client-samuel-wong-151-jellycat-19",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1070,
       "name": "Jellycat",
       "type": "Prepaid",
       "hoursPurchased": "50 hours support\n1. Procurement support\n- Minimum deduction of 1.5 hours per user/issue raised\n2. Remote support\n- Minimum deduction of 1 hour(s) per issue raised\n3. Consultation support\n- Minimum deduction of 1 hour(s) per issue raised\n4. Digital support\n- Minimum deduction of 1 hour(s) per issue raised",
@@ -1998,8 +1928,7 @@
     },
     {
       "id": "client-samuel-wong-151-langtech-20",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1071,
       "name": "Langtech",
       "type": "Prepaid",
       "hoursPurchased": "10 hours - Mixture of onsite and remote support",
@@ -2017,8 +1946,7 @@
     },
     {
       "id": "client-samuel-wong-151-p2-wireless-21",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1072,
       "name": "P2 Wireless",
       "type": "Prepaid",
       "hoursPurchased": "5 Hours support",
@@ -2036,8 +1964,7 @@
     },
     {
       "id": "client-samuel-wong-151-stoneview-sg-22",
-      "legacyId": 151,
-      "managerId": "manager-samuel-wong",
+      "legacyId": 1073,
       "name": "Stoneview (SG)",
       "type": "Prepaid",
       "hoursPurchased": "",
@@ -2054,8 +1981,7 @@
     },
     {
       "id": "client-teflon-siu-151-pharo-1",
-      "legacyId": 151,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1074,
       "name": "Pharo",
       "type": "Recurring",
       "hoursPurchased": "Onsite support service\n- Half-day visit daily per month\n- Support Hours: Monday-Friday 8:30am-12:30pm (HKT) (Public Holidays excluded)\nInfrastructure support service\n- Regular checks on Server, Firewall and Backup at HK office",
@@ -2074,8 +2000,7 @@
     },
     {
       "id": "client-teflon-siu-152-china-silver-2",
-      "legacyId": 152,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1075,
       "name": "China Silver",
       "type": "Prepaid",
       "hoursPurchased": "",
@@ -2092,8 +2017,7 @@
     },
     {
       "id": "client-teflon-siu-153-profile-wilson-grp-3",
-      "legacyId": 153,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1076,
       "name": "The Profile Group (HK) Ltd",
       "type": "Recurring",
       "hoursPurchased": "- up to 12 hours of onsite/remote support",
@@ -2110,8 +2034,7 @@
     },
     {
       "id": "client-teflon-siu-154-native-union-4",
-      "legacyId": 154,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1077,
       "name": "Native Union",
       "type": "Recurring",
       "hoursPurchased": "",
@@ -2128,8 +2051,7 @@
     },
     {
       "id": "client-teflon-siu-155-tradition-capital-5",
-      "legacyId": 155,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1078,
       "name": "Tradition Capital",
       "type": "Prepaid",
       "hoursPurchased": "",
@@ -2146,8 +2068,7 @@
     },
     {
       "id": "client-teflon-siu-156-resolution-chambers-6",
-      "legacyId": 156,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1079,
       "name": "Resolution Chambers Ltd",
       "type": "Recurring",
       "hoursPurchased": "1. Infrastructure Monitoring and Maintenance\n- Monitoring of all servers and network devices\n- Backup Monitoring\n- Routine maintenance of network devices and servers\n- React and escalate for alerts or issues\n2. IT Support\na. Remote Support\n- Umlimited remote support for up to 3 users and handled by F8 Helpdesk team (English as a support language)\n- Average response time of around 15 mins\n- Monday to Friday within Business Hours 0900-1800 HKT\nb. Onsite Support\n- 2 Hours regular onsite per month for user and server issue\n- Proactive check with all users on desktop issues\n- Handle outstanding issues that cannot be fixed remotely",
@@ -2164,8 +2085,7 @@
     },
     {
       "id": "client-teflon-siu-157-white-cube-7",
-      "legacyId": 157,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1080,
       "name": "White Cube Hong Kong",
       "type": "Recurring",
       "hoursPurchased": "4 hours per month - Mixture of onsite and remote\nArrange & manage Avaya specialist support",
@@ -2182,8 +2102,7 @@
     },
     {
       "id": "client-teflon-siu-158-conran-8",
-      "legacyId": 158,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1081,
       "name": "Conran",
       "type": "Recurring",
       "hoursPurchased": "10 hours - ONSITE Support",
@@ -2201,8 +2120,7 @@
     },
     {
       "id": "client-teflon-siu-158-made-partners-9",
-      "legacyId": 158,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1082,
       "name": "Made Partners Limited",
       "type": "Recurring",
       "hoursPurchased": "- IT Support: 2 hrs/month Emergency Support (Mixture of onsite and remote)",
@@ -2219,8 +2137,7 @@
     },
     {
       "id": "client-teflon-siu-158-audacy-10",
-      "legacyId": 158,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1083,
       "name": "Audacy",
       "type": "Prepaid",
       "hoursPurchased": "15 hours - Mixture of onsite and remote support",
@@ -2238,8 +2155,7 @@
     },
     {
       "id": "client-teflon-siu-158-augventive-11",
-      "legacyId": 158,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1084,
       "name": "Augventive",
       "type": "Prepaid",
       "hoursPurchased": "15 Hours",
@@ -2257,8 +2173,7 @@
     },
     {
       "id": "client-teflon-siu-158-design-pool-12",
-      "legacyId": 158,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1085,
       "name": "Design Pool",
       "type": "Prepaid",
       "hoursPurchased": "30 Hours - Mixture of onsite and remote support",
@@ -2276,8 +2191,7 @@
     },
     {
       "id": "client-teflon-siu-158-glenor-cask-13",
-      "legacyId": 158,
-      "managerId": "manager-teflon-siu",
+      "legacyId": 1086,
       "name": "Glenor Cask",
       "type": "Prepaid",
       "hoursPurchased": "15 Hours - Mixture of Onsite & Remote Support",
